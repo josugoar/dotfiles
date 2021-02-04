@@ -9,5 +9,8 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
-# User specific aliases and functions
+# Add new line before prompt
+PROMPT_COMMAND="echo"
+
+# Initialize starship
 eval "$(starship init bash)"
