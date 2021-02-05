@@ -9,8 +9,16 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
+add_newline() {
+    if [ -z "$ADD_NEWLINE" ]; then
+        ADD_NEWLINE=true
+    else
+        echo
+    fi
+}
+
 # Add new line before prompt
-PROMPT_COMMAND="echo"
+PROMPT_COMMAND="add_newline"
 
 # Initialize starship
 eval "$(starship init bash)"
