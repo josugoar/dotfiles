@@ -18,7 +18,7 @@ add_newline() {
 }
 
 # Add new line before prompt
-PROMPT_COMMAND="add_newline"
+starship_precmd_user_func="add_newline"
 
 # Initialize starship
 eval "$(starship init bash)"
