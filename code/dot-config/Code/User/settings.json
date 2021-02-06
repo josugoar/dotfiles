@@ -30,5 +30,6 @@
     "debug.allowBreakpointsEverywhere": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "emmet.showSuggestionsAsSnippets": true
+    "emmet.showSuggestionsAsSnippets": true,
+    "git.autofetch": true
 }
