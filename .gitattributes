@@ -1,3 +1,4 @@
 *bash_profile linguist-language=Shell
 *bashrc linguist-language=Shell
-*inputrc linguist-language=Shell
+*inputrc linguist-language="Readline Config"
+*.toml linguist-language=TOML
