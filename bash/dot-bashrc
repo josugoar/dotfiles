@@ -33,7 +33,7 @@ export Videos="$HOME/Videos"
 set -o noclobber
 
 # Prepend cd to directory names automatically
-shopt -s autocd
+# shopt -s autocd
 
 # This allows you to bookmark your favorite places across the file system
 # Define a variable containing a path and you will be able to cd into it regardless of the directory you're in
