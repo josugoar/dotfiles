@@ -4,6 +4,7 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "boundary",
+    "editor.selectionClipboard": false,
     "editor.smoothScrolling": true,
     "editor.cursorSmoothCaretAnimation": true,
     "editor.fontFamily": "Fira Code",
