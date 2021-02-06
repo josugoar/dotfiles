@@ -20,10 +20,6 @@ set mark-symlinked-directories on
 # Display matches for ambiguous patterns at first tab press
 set show-all-if-ambiguous on
 
-# Expand history with space bar
-# E.g. typing !!<space> will replace the !! with your last command
-Space:magic-space
-
 # Incrementally search history with ctrl and up/down arrows
 "\e[1;5A": history-search-backward
 "\e[1;5B": history-search-forward
@@ -41,3 +37,7 @@ Space:magic-space
 
 # Delete characters with delete key
 "\e[3~": delete-char
+
+# Expand history with space bar
+# E.g. typing !!<space> will replace the !! with your last command
+"\x20": magic-space
