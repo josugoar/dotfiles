@@ -11,7 +11,7 @@ set completion-ignore-case on
 # Treat hyphens and underscores as equivalent
 set completion-map-case on
 
-# Do not display control characters
+# Don't display control characters
 set echo-control-characters off
 
 # Immediately add a trailing slash when autocompleting symlinks to directories
