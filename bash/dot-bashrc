@@ -9,10 +9,6 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
-if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-fi
-
 add_newline() {
     if [ -z "$ADD_NEWLINE" ]; then
         ADD_NEWLINE=true
