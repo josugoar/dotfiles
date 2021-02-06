@@ -1,4 +1,5 @@
 {
+    "editor.linkedEditing": true,
     "editor.mouseWheelZoom": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
