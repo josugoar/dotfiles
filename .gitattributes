@@ -1,3 +1,4 @@
 dot-bash_profile linguist-language=Shell
 dot-bashrc linguist-language=Shell
 dot-inputrc linguist-language=Readline-Config
+dot-nanorc linguist-language=nanorc
