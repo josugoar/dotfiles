@@ -31,5 +31,8 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "emmet.showSuggestionsAsSnippets": true,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "remote.containers.defaultExtensions": [
+        "eamodio.gitlens"
+    ]
 }
