@@ -1,0 +1,5 @@
+function precmd() {
+    echo
+}
+
+eval "$(starship init zsh)"
