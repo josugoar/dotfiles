@@ -1,0 +1,7 @@
+[
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    }
+]
