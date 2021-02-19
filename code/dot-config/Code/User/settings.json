@@ -12,6 +12,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.snippetSuggestions": "top",
     "editor.suggestSelection": "first",
@@ -33,6 +34,7 @@
     "emmet.showSuggestionsAsSnippets": true,
     "git.autofetch": true,
     "remote.containers.defaultExtensions": [
-        "eamodio.gitlens"
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker"
     ]
 }
