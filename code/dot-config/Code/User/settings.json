@@ -34,7 +34,6 @@
     "emmet.showSuggestionsAsSnippets": true,
     "git.autofetch": true,
     "remote.containers.defaultExtensions": [
-        "eamodio.gitlens",
-        "ms-azuretools.vscode-docker"
+        "eamodio.gitlens"
     ]
 }
