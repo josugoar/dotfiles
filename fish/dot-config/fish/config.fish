@@ -1,5 +1,6 @@
 function add_newline_on_cancel --on-event fish_cancel
     # ADD AS MANY NEW LINES AS NEEDED
+    tput ed
     echo
     echo
 end
