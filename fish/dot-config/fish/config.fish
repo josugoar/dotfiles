@@ -1,5 +1,9 @@
-function add_newline --on-event fish_preexec
-    echo
+function add_newline --on-event fish_prompt
+    if set --query ADD_NEWLINE
+        echo
+    else
+        set --global ADD_NEWLINE
+    end
 end
 
 function __fish_cancel_commandline
@@ -10,22 +14,23 @@ function __fish_cancel_commandline
     if test -n "$cmd"
         commandline -C 1000000
         if set -q fish_color_cancel
-            echo -ns (set_color $fish_color_cancel) "^C" (set_color normal)
+            echo -s (set_color $fish_color_cancel) "^C" (set_color normal)
         else
-            echo -ns "^C"
+            echo -s "^C"
         end
         if command -sq tput
             # Clear to EOL (to erase any autosuggestion).
-            echo -n (tput el; or tput ce)
+            echo (tput el; or tput ce)
         end
         for i in (seq (commandline -L))
             echo ""
         end
         commandline ""
-        commandline -f execute
-        # This is the important line
-        commandline -f repaint
+        emit fish_cancel
     end
+    # Repaint even if we haven't cancelled anything,
+    # so the prompt refreshes and the terminal scrolls to it.
+    commandline -f repaint
 end
 
 set fish_greeting
