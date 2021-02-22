@@ -1,20 +1,23 @@
-function add_newline_on_cancel --on-event fish_cancel
-    echo
-    if command --quiet tput
+function __line_break --on-event fish_cancel
+    if commandline --quiet tput
         tput ed
-        for i in (seq (math (count (fish_prompt)) - 1))
-            echo
-        end
+    end
+
+    for i in (seq 2 (count (fish_prompt)))
+        echo
+    end
+
+    emit fish_prompt
+end
+
+function __add_newline --on-event fish_prompt
+    if set --query _add_newline_on_prompt
+        echo
+    else
+        set --global _add_newline_on_prompt
     end
 end
 
-function add_newline_on_prompt --on-event fish_prompt
-    if set --query ADD_NEWLINE
-        echo
-    else
-        set --global ADD_NEWLINE
-    end
-end
 
 set fish_greeting
 
