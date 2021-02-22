@@ -1,8 +1,11 @@
 function add_newline_on_cancel --on-event fish_cancel
-    # ADD AS MANY NEW LINES AS NEEDED
-    tput ed
     echo
-    echo
+    if command --quiet tput
+        tput ed
+        for i in (seq (math (count (fish_prompt)) - 1))
+            echo
+        end
+    end
 end
 
 function add_newline_on_prompt --on-event fish_prompt
