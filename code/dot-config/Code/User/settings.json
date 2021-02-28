@@ -12,7 +12,6 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.minimap.enabled": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.snippetSuggestions": "top",
     "editor.suggestSelection": "first",
