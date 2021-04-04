@@ -1,15 +1,14 @@
-function __add_newline \
-        --on-event fish_cancel \
-        --on-event fish_postexec
-    echo
+function __add_newline --on-event fish_prompt
+    if set --query _add_newline_on_prompt
+        echo
+    else
+        set --global _add_newline_on_prompt
+    end
 end
 
 function __line_break --on-event fish_cancel
-    if command --quiet tput
-        tput ed
-    end
-
-    for i in (fish_prompt)[2..-1]
+    tput ed
+    for i in (fish_prompt)[1..-2]
         echo
     end
 end
