@@ -9,13 +9,7 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
-add_newline() {
-    if [ -z "$ADD_NEWLINE" ]; then
-        ADD_NEWLINE=true
-    else
-        echo
-    fi
-}
+PROMPT_COMMAND="PROMPT_COMMAND='echo'"
 
 # Exported cdable variables
 export Desktop="$HOME/Desktop"
