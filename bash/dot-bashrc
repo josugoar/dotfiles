@@ -9,8 +9,6 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
-PROMPT_COMMAND="PROMPT_COMMAND='echo'"
-
 # Exported cdable variables
 export Desktop="$HOME/Desktop"
 export Documents="$HOME/Documents"
@@ -55,7 +53,7 @@ shopt -s histappend
 shopt -s nocaseglob
 
 # Add new line before prompt
-starship_precmd_user_func="add_newline"
+PROMPT_COMMAND="PROMPT_COMMAND='echo'"
 
 # Initialize starship
 eval "$(starship init bash)"
