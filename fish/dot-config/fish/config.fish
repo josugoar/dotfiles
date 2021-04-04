@@ -6,7 +6,7 @@ end
 
 function __line_break --on-event fish_cancel
     tput ed
-    for i in (fish_prompt)[1..-2]
+    for i in (fish_prompt)[..-2]
         echo
     end
 end
