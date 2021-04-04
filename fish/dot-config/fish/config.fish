@@ -1,8 +1,6 @@
 function __add_newline --on-event fish_prompt
-    if set --query _add_newline_on_prompt
+    function __add_newline --on-event fish_prompt
         echo
-    else
-        set --global _add_newline_on_prompt
     end
 end
 
