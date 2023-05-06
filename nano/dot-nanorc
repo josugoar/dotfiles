@@ -20,10 +20,6 @@ set boldtext
 # option quickblank.
 # set constantshow
 
-# Use cut-from-cursor-to-end-of-line by default, instead of cutting the whole
-# line.
-# set cutfromcursor
-
 # Do not use the line below the title bar, leaving it entirely blank.
 set emptyline
 
@@ -34,10 +30,6 @@ set emptyline
 # value is −8.
 set fill 80
 
-# Draw a vertical stripe at the given column, to help judge the width of the
-# text. (The color of the stripe can be changed with set stripecolor.)
-# set guidestripe 0
-
 # Save the last hundred search strings and replacement strings and executed
 # commands, so they can be easily reused in later sessions.
 set historylog
@@ -46,9 +38,6 @@ set historylog
 # position of the viewport in the buffer and how much of the buffer is covered
 # by the viewport.
 set indicator
-
-# Scroll the buffer contents per half-screen instead of per line.
-# set jumpyscrolling
 
 # Display line numbers to the left of the text area. (Any line with an anchor
 # additionally gets a mark in the margin.)
