@@ -1,10 +1,5 @@
 # Make Ctrl+Right and Ctrl+Delete stop at word ends instead of beginnings.
-# set afterends
-
-# When backing up files, allow the backup to succeed even if its permissions
-# can’t be (re)set due to special OS considerations. You should NOT enable this
-# option unless you are sure you need it.
-# set allow_insecure_backup
+set afterends
 
 # When soft line wrapping is enabled, make it wrap lines at blank characters
 # (tabs and spaces) instead of always at the edge of the screen.
@@ -15,33 +10,11 @@ set atblanks
 # beginning of a paragraph).
 set autoindent
 
-# When saving a file, create a backup file by adding a tilde (~) to the file’s
-# name.
-# set backup
-
-# Make and keep not just one backup file, but make and keep a uniquely numbered
-# one every time a file is saved -- when backups are enabled with set backup or
-# −−backup or −B. The uniquely numbered files are stored in the specified
-# directory.
-# set backupdir ""
-
 # Use bold instead of reverse video for the title bar, status bar, key combos,
 # function tags, line numbers, and selected text. This can be overridden by
 # setting the options titlecolor, statuscolor, keycolor, functioncolor,
 # numbercolor, and selectedcolor.
 set boldtext
-
-# Set the characters treated as closing brackets when justifying paragraphs.
-# This may not include blank characters. Only closing punctuation (see set
-# punct), optionally followed by the specified closing brackets, can end
-# sentences. The default value is ""’)>]}".
-# set brackets ""’)>]}"
-
-# Automatically hard-wrap the current line when it becomes overlong.
-# set breaklonglines
-
-# Do case-sensitive searches by default.
-set casesensitive
 
 # Constantly display the cursor position in the status bar. This overrides the
 # option quickblank.
@@ -54,21 +27,12 @@ set casesensitive
 # Do not use the line below the title bar, leaving it entirely blank.
 set emptyline
 
-# Use this color combination for the status bar when an error message is
-# displayed. The default value is brightwhite,red. See set titlecolor for valid
-# color names.
-# set errorcolor brightwhite,red
-
 # Set the target width for justifying and automatic hard-wrapping at this
 # number of columns. If the value is 0 or less, wrapping will occur at the
 # width of the screen minus number columns, allowing the wrap point to vary
 # along with the width of the screen if the screen is resized. The default
 # value is −8.
 set fill 80
-
-# Use this color combination for the concise function descriptions in the two
-# help lines at the bottom of the screen. See set titlecolor for more details.
-# set functioncolor normal
 
 # Draw a vertical stripe at the given column, to help judge the width of the
 # text. (The color of the stripe can be changed with set stripecolor.)
@@ -86,27 +50,16 @@ set indicator
 # Scroll the buffer contents per half-screen instead of per line.
 # set jumpyscrolling
 
-# Use this color combination for the shortcut key combos in the two help lines
-# at the bottom of the screen. See set titlecolor for more details.
-# set keycolor normal
-
 # Display line numbers to the left of the text area. (Any line with an anchor
 # additionally gets a mark in the margin.)
 set linenumbers
-
-# Enable vim-style lock-files for when editing files.
-# set locking
 
 # When neither the file’s name nor its first line give a clue, try using
 # libmagic to determine the applicable syntax. (Calling libmagic can be
 # relatively time consuming. It is therefore not done by default.)
 set magic
 
-# Specify the opening and closing brackets that can be found by bracket
-# searches. This may not include blank characters. The opening set must come
-# before the closing set, and the two sets must be in the same order. The
-# default value is "(<[{)>]}".
-# set matchbrackets "(<[{)>]}"
+# set minibar
 
 # Enable mouse support, if available for your system. When enabled, mouse
 # clicks can be used to place the cursor, set the mark (with a double click),
@@ -124,19 +77,6 @@ set multibuffer
 # Don’t display the two help lines at the bottom of the screen.
 # set nohelp
 
-# Don’t automatically add a newline when a text does not end with one. (This
-# can cause you to save non-POSIX text files.)
-# set nonewlines
-
-# Use this color combination for line numbers. See set titlecolor for more
-# details.
-# set numbercolor normal
-
-# nano will only read and write files inside directory and its subdirectories.
-# Also, the current directory is changed to here, so files are inserted from
-# this directory. By default, the operating directory feature is turned off.
-# set operatingdir ""
-
 # Save the cursor position of files between editing sessions. The cursor
 # position is remembered for the 200 most-recently edited files.
 set positionlog
@@ -144,32 +84,9 @@ set positionlog
 # Preserve the XON and XOFF keys (^Q and ^S).
 # set preserve
 
-# Set the characters treated as closing punctuation when justifying paragraphs.
-# This may not include blank characters. Only the specfified closing
-# punctuation, optionally followed by closing brackets (see brackets), can end
-# sentences. The default value is "!.?".
-# set punct "!.?"
-
 # Do quick status-bar blanking: status-bar messages will disappear after 1
 # keystroke instead of 25. The option constantshow overrides this.
 # set quickblank
-
-# Set the regular expression for matching the quoting part of a line. The
-# default value is "^([ \t]*([!#%:;>|}]|//))+". (Note that \t stands for an
-# actual Tab character.) This makes it possible to rejustify blocks of quoted
-# text when composing email, and to rewrap blocks of line comments when writing
-# source code.
-# set quotestr "^([ \t]*([!#%:;>|}]|//))+"
-
-# Interpret escape sequences directly (instead of asking ncurses to translate
-# them). If you need this option to get your keyboard to work properly, please
-# report a bug. Using this option disables nano’s mouse support.
-# set rawsequences
-
-# Interpret the Delete and Backspace keys differently so that both Backspace
-# and Delete work properly. You should only use this option when on your system
-# either Backspace acts like Delete or Delete acts like Backspace.
-# set rebinddelete
 
 # Do regular-expression searches by default. Regular expressions in nano are of
 # the extended type (ERE).
@@ -178,19 +95,6 @@ set regexp
 # Save a changed buffer automatically on exit (^X); don’t prompt. (The old form
 # of this option, set tempfile, is deprecated.)
 # set saveonexit
-
-# Use this color combination for the indicator alias "scrollbar". (On terminal
-# emulators that link to a libvte older than version 0.55, using a background
-# color here does not work correctly.) See set titlecolor for more details.
-# set scrollercolor normal
-
-# Use this color combination for selected text. See set titlecolor for more
-# details.
-# set selectedcolor normal
-
-# Put the cursor on the highlighted item in the file browser, to aid braille
-# users.
-# set showcursor
 
 # Make the Home key smarter. When Home is pressed anywhere but at the very
 # beginning of non-whitespace characters on a line, the cursor will jump to
@@ -203,27 +107,12 @@ set regexp
 # screen’s edge, by using also set atblanks.)
 set softwrap
 
-# Use the given program to do spell checking and correcting, instead of using
-# the built-in corrector that calls hunspell(1) or spell(1).
-# set speller ""
-
 # Use the top-right corner of the screen for showing some state flags: I when
 # auto-indenting, M when the mark is on, L when hard-wrapping (breaking long
 # lines), R when recording a macro, and S when soft-wrapping. When the buffer
 # is modified, a star (*) is shown after the filename in the center of the
 # title bar.
 set stateflags
-
-# Use this color combination for the status bar. See set titlecolor for more
-# details.
-# set statuscolor normal
-
-# Use this color combination for the vertical guiding stripe. See set
-# titlecolor for more details.
-# set stripecolor normal
-
-# Allow nano to be suspended (with ^Z by default).
-set suspendable
 
 # Use a tab size of number columns. The value of number must be greater than 0.
 # The default value is 8.
@@ -232,42 +121,16 @@ set tabsize 4
 # Convert typed tabs to spaces.
 set tabstospaces
 
-# Use this color combination for the title bar. Valid names for the foreground
-# and background colors are: red, green, blue, magenta, yellow, cyan, white,
-# and black. Each of these eight names may be prefixed with the word light to
-# get a brighter version of that color. On terminal emulators that can do at
-# least 256 colors, other valid (but unprefixable) color names are: pink,
-# purple, mauve, lagoon, mint, lime, peach, orange, latte, and normal -- where
-# normal means the default foreground or background color. Either "fgcolor" or
-# ",bgcolor" may be left out, and the pair may be preceded by bold and/or
-# italic (separated by commas) to get a bold and/or slanting typeface, if your
-# terminal can do those.
-# set titlecolor normal
-
 # Remove trailing whitespace from wrapped lines when automatic hard-wrapping
 # occurs or when text is justified.
 set trimblanks
-
-# Save a file by default in Unix format. This overrides nano’s default behavior
-# of saving a file in the format that it had. (This option has no effect when
-# you also use set noconvert.)
-# set unix
-
-# Set the two characters used to indicate the presence of tabs and spaces. They
-# must be single-column characters. The default pair for a UTF-8 locale is
-# "»⋅", and for other locales ">.".
-# set whitespace "»⋅"
-# set whitespace ">."
 
 # Detect word boundaries differently by treating punctuation characters as
 # parts of words.
 set wordbounds
 
-# Specify which other characters (besides the normal alphanumeric ones) should
-# be considered as parts of words. When using this option, you probably want to
-# unset wordbounds.
-# set wordchars ""
-
 # Let an unmodified Backspace or Delete erase the marked region (instead of a
 # single character, and without affecting the cutbuffer).
 set zap
+
+# set zero
