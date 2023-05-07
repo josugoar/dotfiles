@@ -1,105 +1,59 @@
-# Make Ctrl+Right and Ctrl+Delete stop at word ends instead of beginnings.
+# Make 'nextword' (Ctrl+Right) and 'chopwordright' (Ctrl+Delete)
+# stop at word ends instead of at beginnings.
 set afterends
 
-# When soft line wrapping is enabled, make it wrap lines at blank characters
+# When soft line wrapping is enabled, make it wrap lines at blanks
 # (tabs and spaces) instead of always at the edge of the screen.
 set atblanks
 
-# Automatically indent a newly created line to the same number of tabs and/or
-# spaces as the previous line (or as the next line if the previous line is the
-# beginning of a paragraph).
+# Automatically indent a newly created line to the same number of
+# tabs and/or spaces as the preceding line -- or as the next line
+# if the preceding line is the beginning of a paragraph.
 set autoindent
 
-# Use bold instead of reverse video for the title bar, status bar, key combos,
-# function tags, line numbers, and selected text. This can be overridden by
-# setting the options titlecolor, statuscolor, keycolor, functioncolor,
-# numbercolor, and selectedcolor.
+# Use bold text instead of reverse video text.
 set boldtext
 
-# Constantly display the cursor position in the status bar. This overrides the
-# option quickblank.
-# set constantshow
+# Constantly display the cursor position in the status bar or minibar.
+set constantshow
 
-# Do not use the line below the title bar, leaving it entirely blank.
-set emptyline
-
-# Set the target width for justifying and automatic hard-wrapping at this
-# number of columns. If the value is 0 or less, wrapping will occur at the
-# width of the screen minus number columns, allowing the wrap point to vary
-# along with the width of the screen if the screen is resized. The default
-# value is −8.
-set fill 80
-
-# Save the last hundred search strings and replacement strings and executed
-# commands, so they can be easily reused in later sessions.
+# Remember the used search/replace strings for the next session.
 set historylog
 
-# Display a "scrollbar" on the righthand side of the edit window. It shows the
-# position of the viewport in the buffer and how much of the buffer is covered
-# by the viewport.
+# Display a "scrollbar" on the righthand side of the edit window.
 set indicator
 
-# Display line numbers to the left of the text area. (Any line with an anchor
-# additionally gets a mark in the margin.)
+# Display line numbers to the left (and any anchors in the margin).
 set linenumbers
 
-# When neither the file’s name nor its first line give a clue, try using
-# libmagic to determine the applicable syntax. (Calling libmagic can be
-# relatively time consuming. It is therefore not done by default.)
-set magic
+# Suppress the title bar and show the filename plus a cursor-position
+# percentage in the space of the status bar.
+set minibar
 
-# When reading in a file with ^R, insert it into a new buffer by default.
+# Switch on multiple file buffers (inserting a file will put it into
+# a separate buffer).
 set multibuffer
 
-# Don’t convert files from DOS/Mac format.
-# set noconvert
-
-# Save the cursor position of files between editing sessions. The cursor
-# position is remembered for the 200 most-recently edited files.
+# Remember the cursor position in each file for the next editing session.
 set positionlog
 
-# Preserve the XON and XOFF keys (^Q and ^S).
-# set preserve
+# Make the Home key smarter: when Home is pressed anywhere but at the
+# very beginning of non-whitespace characters on a line, the cursor
+# will jump to that beginning (either forwards or backwards).  If the
+# cursor is already at that position, it will jump to the true start
+# of the line (the left edge).
+set smarthome
 
-# Do quick status-bar blanking: status-bar messages will disappear after 1
-# keystroke instead of 25. The option constantshow overrides this.
-# set quickblank
-
-# Save a changed buffer automatically on exit (^X); don’t prompt. (The old form
-# of this option, set tempfile, is deprecated.)
-# set saveonexit
-
-# Make the Home key smarter. When Home is pressed anywhere but at the very
-# beginning of non-whitespace characters on a line, the cursor will jump to
-# that beginning (either forwards or backwards). If the cursor is already at
-# that position, it will jump to the true beginning of the line.
-# set smarthome
-
-# Display lines that exceed the screen’s width over multiple screen lines. (You
-# can make this soft-wrapping occur at whitespace instead of rudely at the
-# screen’s edge, by using also set atblanks.)
+# Spread overlong lines over multiple screen lines.
 set softwrap
 
-# Use the top-right corner of the screen for showing some state flags: I when
-# auto-indenting, M when the mark is on, L when hard-wrapping (breaking long
-# lines), R when recording a macro, and S when soft-wrapping. When the buffer
-# is modified, a star (*) is shown after the filename in the center of the
-# title bar.
+# Use the end of the title bar for some state flags: I = auto-indenting,
+# M = mark, L = hard-wrapping long lines, R = recording, S = soft-wrapping.
 set stateflags
 
-# Use a tab size of number columns. The value of number must be greater than 0.
-# The default value is 8.
-set tabsize 4
-
-# Convert typed tabs to spaces.
-set tabstospaces
-
-# Remove trailing whitespace from wrapped lines when automatic hard-wrapping
-# occurs or when text is justified.
+# Snip whitespace at the end of lines when justifying or hard-wrapping.
 set trimblanks
 
-# Let an unmodified Backspace or Delete erase the marked region (instead of a
-# single character, and without affecting the cutbuffer).
+# Let an unmodified Backspace or Delete erase the marked region (instead
+# of a single character, and without affecting the cutbuffer).
 set zap
-
-# set zero
