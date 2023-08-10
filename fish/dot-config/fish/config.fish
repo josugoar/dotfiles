@@ -11,6 +11,6 @@ function __line_break --on-event fish_cancel
     end
 end
 
-set fish_greeting
+set -g fish_greeting
 
 starship init fish | source
