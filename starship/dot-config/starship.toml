@@ -1,2 +1,2 @@
-# Don't print a new line at the start of the prompt
+# Inserts blank line between shell prompts.
 add_newline = false
