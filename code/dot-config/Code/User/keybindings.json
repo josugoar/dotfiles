@@ -1,10 +1,5 @@
 [
     {
-        "key": "ctrl+w",
-        "command": "workbench.action.terminal.kill",
-        "when": "terminalFocus && terminalProcessSupported"
-    },
-    {
         "key": "ctrl+space",
         "command": "workbench.action.toggleMaximizedPanel",
         "when": "terminalFocus"
