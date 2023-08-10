@@ -10,4 +10,4 @@ git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git ~/nerd-fonts
 curl -sS https://starship.rs/install.sh | sh
 
 sudo dnf install stow
-stow --target ~ --dotfiles fish starship
+stow --target ~ --dotfiles fish gtk3 starship
