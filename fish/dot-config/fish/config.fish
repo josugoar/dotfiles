@@ -1,7 +1,5 @@
-function __add_newline --on-event fish_prompt
-    function __add_newline --on-event fish_prompt
-        echo
-    end
+function __add_newline --on-event fish_cancel --on-event fish_prompt
+    echo
 end
 
 set -g fish_greeting
