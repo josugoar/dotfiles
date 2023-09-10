@@ -1,0 +1,15 @@
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+
+[org/gnome/desktop/sound]
+allow-volume-above-100-percent=true
+event-sounds=false
+
+[org/gnome/desktop/wm/keybindings]
+switch-applications=@as []
+switch-applications-backward=@as []
+switch-windows=['<Alt>Tab']
+switch-windows-backward=['<Shift><Alt>Tab']
+
+[org/gtk/gtk4/settings/file-chooser]
+show-hidden=true
