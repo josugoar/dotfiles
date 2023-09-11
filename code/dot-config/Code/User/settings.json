@@ -36,8 +36,9 @@
     "terminal.integrated.smoothScrolling": true,
     "window.confirmBeforeClose": "keyboardOnly",
     "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
     "workbench.editor.wrapTabs": true,
     "workbench.list.smoothScrolling": true,
     "workbench.startupEditor": "none",
-    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.view.alwaysShowHeaderActions": true
 }
