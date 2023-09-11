@@ -1,7 +1,17 @@
 [
     {
+        "key": "ctrl+k ctrl+enter",
+        "command": "github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+    },
+    {
         "key": "ctrl+space",
         "command": "workbench.action.toggleMaximizedPanel",
         "when": "terminalFocus"
-    }
+    },
 ]
