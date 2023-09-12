@@ -1,11 +1,10 @@
 {
     "debug.allowBreakpointsEverywhere": true,
     "debug.autoExpandLazyVariables": true,
-    "debug.console.closeOnEnd": true,
+    "debug.showSubSessionsInToolBar": true,
     "debug.terminal.clearBeforeReusing": true,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.autoClosingDelete": "always",
-    "editor.autoClosingOvertype": "always",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.defaultColorDecorators": true,
     "editor.dragAndDrop": false,
@@ -33,12 +32,11 @@
     "notebook.formatOnCellExecution": true,
     "notebook.formatOnSave.enabled": true,
     "notebook.output.scrolling": true,
-    "terminal.integrated.smoothScrolling": true,
     "window.confirmBeforeClose": "keyboardOnly",
-    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "custom",
     "workbench.colorTheme": "GitHub Dark Dimmed",
     "workbench.editor.wrapTabs": true,
     "workbench.list.smoothScrolling": true,
     "workbench.startupEditor": "none",
-    "workbench.view.alwaysShowHeaderActions": true
+    "workbench.view.alwaysShowHeaderActions": true,
 }
