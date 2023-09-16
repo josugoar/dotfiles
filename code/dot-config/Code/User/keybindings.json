@@ -2,16 +2,22 @@
     {
         "command": "github.copilot.generate",
         "key": "ctrl+k ctrl+enter",
-        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused",
     },
     {
         "command": "-github.copilot.generate",
         "key": "ctrl+enter",
-        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused",
+    },
+    {
+        "args": "j",
+        "command": "vscode-neovim.compositeEscape1",
+        "key": "j",
+        "when": "editorTextFocus && neovim.mode == insert",
     },
     {
         "command": "workbench.action.toggleMaximizedPanel",
         "key": "ctrl+space",
-        "when": "terminalFocus"
+        "when": "terminalFocus",
     },
 ]
