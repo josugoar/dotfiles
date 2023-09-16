@@ -16,6 +16,12 @@
         "when": "editorTextFocus && neovim.mode == insert",
     },
     {
+        "args": "k",
+        "command": "vscode-neovim.compositeEscape2",
+        "key": "k",
+        "when": "editorTextFocus && neovim.mode == insert",
+    },
+    {
         "command": "workbench.action.toggleMaximizedPanel",
         "key": "ctrl+space",
         "when": "terminalFocus",
