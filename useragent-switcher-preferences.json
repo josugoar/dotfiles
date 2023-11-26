@@ -1,0 +1,27 @@
+{
+  "blacklist": [],
+  "cache": true,
+  "custom": {},
+  "exactMatch": false,
+  "faqs": false,
+  "last-update": 1701007513311,
+  "log": false,
+  "mode": "whitelist",
+  "parser": {},
+  "popup-browser": "Edge",
+  "protected": [
+    "google.com/recaptcha",
+    "gstatic.com/recaptcha",
+    "accounts.google.com",
+    "accounts.youtube.com",
+    "gitlab.com/users/sign_in"
+  ],
+  "siblings": {},
+  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1788.0",
+  "userAgentData": true,
+  "whitelist": [
+    "www.bing.com"
+  ],
+  "json-guid": "98dd7c92-c44b-46ba-8d75-e2b6022f1c9b",
+  "json-forced": false
+}
