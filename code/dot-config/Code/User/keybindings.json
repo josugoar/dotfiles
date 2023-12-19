@@ -19,7 +19,6 @@
         "command": "-emojisense.quickEmojiTerminal",
         "when": "terminalFocus"
     },
-
     {
         "key": "ctrl+enter",
         "command": "-github.copilot.generate",
