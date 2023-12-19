@@ -38,6 +38,7 @@
   "notebook.output.scrolling": true,
   "window.confirmBeforeClose": "keyboardOnly",
   "window.titleBarStyle": "custom",
+  "window.zoomLevel": 2,
   "workbench.colorTheme": "GitHub Dark Dimmed",
   "workbench.editor.wrapTabs": true,
   "workbench.editorAssociations": {
@@ -45,5 +46,5 @@
   },
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "none",
-  "workbench.view.alwaysShowHeaderActions": true
+  "workbench.view.alwaysShowHeaderActions": true,
 }
