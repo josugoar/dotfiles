@@ -7,7 +7,7 @@ sudo dnf install code
 sudo dnf install fish
 chsh -s /usr/bin/fish
 
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+git clone https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
 sudo dnf install nano
