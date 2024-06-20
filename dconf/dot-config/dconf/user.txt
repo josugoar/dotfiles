@@ -19,5 +19,4 @@ switch-windows-backward=['<Shift><Alt>Tab']
 favorite-apps=['org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'code.desktop']
 
 [org/gtk/gtk4/settings/file-chooser]
-clock-format='24h'
 show-hidden=true
