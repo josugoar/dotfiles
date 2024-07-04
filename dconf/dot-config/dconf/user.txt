@@ -2,9 +2,6 @@
 clock-format='24h'
 color-scheme='prefer-dark'
 
-[org/gnome/desktop/peripheral/touchpad]
-tap-to-click=true
-
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=true
 event-sounds=false
