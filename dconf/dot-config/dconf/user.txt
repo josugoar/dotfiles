@@ -6,6 +6,14 @@ color-scheme='prefer-dark'
 allow-volume-above-100-percent=true
 event-sounds=false
 
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Control><Alt>t'
+command='gnome-terminal'
+name='Launch terminal'
+
 [org/gnome/desktop/wm/keybindings]
 switch-applications=@as []
 switch-applications-backward=@as []
