@@ -1,6 +1,6 @@
 {
-    "timeStamp": 1701007845364,
-    "version": "9.9.0.30",
+    "timeStamp": 1720114064703,
+    "version": "10.0.1.1",
     "uiLanguage": "default",
     "pageTranslatorService": "google",
     "textTranslatorService": "google",
@@ -12,6 +12,7 @@
         "deepl"
     ],
     "ttsSpeed": 1,
+    "ttsVolume": 1,
     "targetLanguage": "en",
     "targetLanguageTextTranslation": "en",
     "targetLanguages": [
@@ -31,12 +32,13 @@
     "showButtonInTheAddressBar": "no",
     "showOriginalTextWhenHovering": "no",
     "showTranslateSelectedButton": "no",
-    "showPopupMobile": "no",
+    "whenShowMobilePopup": "only-when-i-touch",
     "useOldPopup": "yes",
     "darkMode": "auto",
     "popupBlueWhenSiteIsTranslated": "yes",
     "popupPanelSection": 1,
     "showReleaseNotes": "no",
+    "dontShowIfIsNotValidText": "yes",
     "dontShowIfPageLangIsTargetLang": "no",
     "dontShowIfPageLangIsUnknown": "no",
     "dontShowIfSelectedTextIsTargetLang": "no",
@@ -53,6 +55,7 @@
     },
     "expandPanelTranslateSelectedText": "no",
     "translateTag_pre": "yes",
+    "enableIframePageTranslation": "yes",
     "dontSortResults": "no",
     "translateDynamicallyCreatedContent": "yes",
     "autoTranslateWhenClickingALink": "yes",
@@ -61,5 +64,10 @@
     "translateClickingOnce": "yes",
     "enableDiskCache": "no",
     "useAlternativeService": "yes",
-    "customServices": []
+    "customServices": [],
+    "showMobilePopupOnDesktop": "no",
+    "popupMobileKeepOnScren": "no",
+    "popupMobilePosition": "top",
+    "addPaddingToPage": "no",
+    "proxyServers": {}
 }
