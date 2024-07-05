@@ -12,10 +12,12 @@ git clone https://github.com/junegunn/fzf.git ~/.fzf
 
 sudo dnf install nano
 
+sudo dnf install neovim
+
 git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git ~/.nerd-fonts
 ~/.nerd-fonts/install.sh
 
 curl -sS https://starship.rs/install.sh | sh
 
 sudo dnf install stow
-stow --dotfiles --target "$HOME" code dconf firefox fish gtk3 nano starship
+stow --dotfiles --target "$HOME" code dconf firefox fish gtk3 nano nvim starship
