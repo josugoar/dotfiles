@@ -12,6 +12,9 @@ sudo dnf install fd-find
 sudo dnf install fish
 chsh -s /usr/bin/fish
 
+# gnome-themes-extra
+sudo dnf install gnome-themes-extra
+
 # fzf
 git clone https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
