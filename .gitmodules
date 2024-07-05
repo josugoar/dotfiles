@@ -1,3 +1,6 @@
 [submodule "nvim/dot-config/nvim"]
 	path = nvim/dot-config/nvim
 	url = https://github.com/josugoar/nvim.git
+[submodule "neovim/dot-config/nvim"]
+	path = neovim/dot-config/nvim
+	url = https://github.com/josugoar/nvim.git
