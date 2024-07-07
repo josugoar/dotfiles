@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# bat
+sudo dnf --assumeyes install bat
+
+# eza
+sudo dnf --assumeyes install eza
+
 # fd
 sudo dnf --assumeyes install fd-find
 
