@@ -1,44 +1,44 @@
 #!/bin/sh
 
-# code
+# vscode
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
-sudo dnf install code
+sudo dnf --assumeyes install code
 
-# fd-find
-sudo dnf install fd-find
+# fd
+sudo dnf --assumeyes install fd-find
 
-# fish
-sudo dnf install fish
-chsh -s /usr/bin/fish
+# fish-shell
+sudo dnf --assumeyes install fish
+chsh --shell /usr/bin/fish
 
 # gnome-themes-extra
-sudo dnf install gnome-themes-extra
+sudo dnf --assumeyes install gnome-themes-extra
 
 # fzf
-git clone https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install --bin
 
 # lazygit
-sudo dnf copr enable atim/lazygit -y
-sudo dnf install lazygit
+sudo dnf --assumeyes copr enable atim/lazygit
+sudo dnf --assumeyes install lazygit
 
 # nano
-sudo dnf install nano
+sudo dnf --assumeyes install nano
 
 # neovim
-sudo dnf install neovim
+sudo dnf --assumeyes install neovim
 
 # nerd-fonts
 git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git ~/.nerd-fonts
-~/.nerd-fonts/install.sh
+~/.nerd-fonts/install.sh FiraCode
 
 # ripgrep
-sudo dnf install ripgrep
+sudo dnf --assumeyes install ripgrep
 
 # starship
-curl -sS https://starship.rs/install.sh | sh
+curl --show-error --silent https://starship.rs/install.sh | sudo sh -s -- --yes
 
 # stow
-sudo dnf install stow
-stow --dotfiles --target "$HOME" code dconf firefox fish gtk3 nano neovim starship
+sudo dnf --assumeyes install stow
+stow --dotfiles --target "$HOME" vscode dconf firefox fish-shell gtk nano neovim starship
