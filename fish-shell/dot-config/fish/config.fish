@@ -21,3 +21,5 @@ function __last_history_item
 end
 
 abbr --add !! --position anywhere --function __last_history_item
+
+zoxide init --cmd cd fish | source
