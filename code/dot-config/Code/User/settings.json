@@ -4,7 +4,7 @@
     "debug.showSubSessionsInToolBar": true,
     "debug.terminal.clearBeforeReusing": true,
     "editor.acceptSuggestionOnEnter": "off",
-    "editor.autoClosingDelete": "always",
+    "editor.autoClosingDelete": "alwas",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.defaultColorDecorators": true,
     "editor.dragAndDrop": false,
@@ -25,7 +25,7 @@
     "editor.suggest.preview": true,
     "editor.tabCompletion": "on",
     "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
+        "asvetliakov.vscode-neovim": 1,
     },
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
@@ -36,13 +36,18 @@
     "notebook.formatOnCellExecution": true,
     "notebook.formatOnSave.enabled": true,
     "notebook.output.scrolling": true,
+    "vscode-neovim.compositeKeys": {
+        "jj": {
+            "command": "vscode-neovim.escape",
+        },
+    },
     "window.confirmBeforeClose": "keyboardOnly",
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 2,
     "workbench.colorTheme": "GitHub Dark Dimmed",
     "workbench.editor.wrapTabs": true,
     "workbench.editorAssociations": {
-        "*.md": "default"
+        "*.md": "default",
     },
     "workbench.list.smoothScrolling": true,
     "workbench.startupEditor": "none",
