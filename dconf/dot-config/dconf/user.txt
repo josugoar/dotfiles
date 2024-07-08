@@ -15,6 +15,11 @@ binding='<Super>Return'
 command='gnome-terminal'
 name='Launch terminal'
 
+[org/gnome/settings-daemon/plugins/power]
+idle-dim=false
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-type='nothing'
+
 [org/gnome/desktop/wm/keybindings]
 switch-applications=@as []
 switch-applications-backward=@as []
