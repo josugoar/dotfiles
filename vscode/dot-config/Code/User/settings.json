@@ -32,6 +32,7 @@
     },
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "afterDelay",
+    "files.autoSaveWorkspaceFilesOnly": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
@@ -42,8 +43,13 @@
     "notebook.formatOnSave.enabled": true,
     "notebook.output.scrolling": true,
     "notebook.undoRedoPerCell": false,
+    "scm.workingSets.enabled": true,
+    "security.promptForRemoteFileProtocolHandling": false,
+    "security.promptForLocalFileProtocolHandling": false,
     "security.workspace.trust.enabled": false,
+    "settingsSync.keybindingsPerPlatform": false,
     "telemetry.telemetryLevel": "off",
+    "terminal.integrated.enableImages": true,
     "vscode-neovim.compositeKeys": {
         "jj": {
             "command": "vscode-neovim.escape",
@@ -51,6 +57,7 @@
     },
     "window.confirmBeforeClose": "keyboardOnly",
     "window.enableMenuBarMnemonics": false,
+    "window.restoreFullscreen": true,
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 2,
     "workbench.colorTheme": "GitHub Dark Dimmed",
@@ -58,6 +65,7 @@
     "workbench.editorAssociations": {
         "*.md": "default",
     },
+    "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
     "workbench.startupEditor": "none",
     "workbench.view.alwaysShowHeaderActions": true,
