@@ -16,7 +16,6 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.guides.bracketPairs": "active",
-    "editor.linkedEditing": true,
     "editor.mouseWheelZoom": true,
     "editor.multiCursorPaste": "full",
     "editor.renderWhitespace": "boundary",
