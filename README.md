@@ -4,5 +4,5 @@
 
 ```sh
 $ git clone https://github.com/josugoar/dotfiles.git
-$ ./install.sh
+$ ./dotfiles/install.sh
 ```
