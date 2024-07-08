@@ -20,6 +20,9 @@ sudo dnf --assumeyes install gnome-themes-extra
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install --bin
 
+# kitty
+sudo dnf --assumeyes install kitty
+
 # lazygit
 sudo dnf --assumeyes copr enable atim/lazygit
 sudo dnf --assumeyes install lazygit
