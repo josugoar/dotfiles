@@ -2,6 +2,7 @@
 show-warning=false
 
 [org/gnome/desktop/input-sources]
+per-window=true
 sources=[('xkb', 'es'), ('xkb', 'es+nodeadkeys')]
 
 [org/gnome/desktop/interface]
