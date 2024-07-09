@@ -1,43 +1,40 @@
 #!/bin/sh
 
-# bat
-sudo dnf --assumeyes install bat
+# dconf
+sudo dnf --assumeyes install dconf-editor
 
-# eza
-sudo dnf --assumeyes install eza
-
-# fd
-sudo dnf --assumeyes install fd-find
+## gnome-themes-extra
+sudo dnf --assumeyes install gnome-themes-extra
 
 # fish-shell
 sudo dnf --assumeyes install fish
 chsh --shell /usr/bin/fish
 
-# gnome-themes-extra
-sudo dnf --assumeyes install gnome-themes-extra
-
-# fzf
+## fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install --bin
+
+## zoxide
+sudo dnf --assumeyes install zoxide
 
 # kitty
 sudo dnf --assumeyes install kitty
 
-# lazygit
-sudo dnf --assumeyes copr enable atim/lazygit
-sudo dnf --assumeyes install lazygit
-
-# nano
-sudo dnf --assumeyes install nano
-
 # neovim
 sudo dnf --assumeyes install neovim
 
-# nerd-fonts
+## fd
+sudo dnf --assumeyes install fd-find
+
+## lazygit
+sudo dnf --assumeyes copr enable atim/lazygit
+sudo dnf --assumeyes install lazygit
+
+## nerd-fonts
 git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git ~/.nerd-fonts
 ~/.nerd-fonts/install.sh FiraCode
 
-# ripgrep
+## ripgrep
 sudo dnf --assumeyes install ripgrep
 
 # starship
@@ -48,9 +45,6 @@ sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
 sudo dnf --assumeyes install code
 
-# zoxide
-sudo dnf --assumeyes install zoxide
-
 # stow
 sudo dnf --assumeyes install stow
-stow --dotfiles --target "$HOME" dconf firefox fish-shell gtk nano neovim starship vscode
+stow --dotfiles --target "$HOME" dconf firefox fish-shell gtk nano neovim starship twp ublock vscode
