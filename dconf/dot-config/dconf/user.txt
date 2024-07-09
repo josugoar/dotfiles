@@ -15,7 +15,7 @@ custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybin
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal]
 binding='<Super>Return'
-command='gnome-terminal'
+command='kitty'
 name='Launch terminal'
 
 [org/gnome/settings-daemon/plugins/power]
@@ -36,6 +36,7 @@ favorite-apps=['org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'org
 list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=false
 font='FiraCode Nerd Font 12'
 use-system-font=false
 
