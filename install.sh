@@ -34,6 +34,9 @@ git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git ~/.nerd-fonts
 ## ripgrep
 sudo dnf --assumeyes install ripgrep
 
+# console
+sudo dnf --assumeyes install gnome-console
+
 # starship
 curl --show-error --silent https://starship.rs/install.sh | sudo sh -s -- --yes
 
