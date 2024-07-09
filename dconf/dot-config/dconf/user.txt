@@ -1,6 +1,12 @@
 [ca/desrt/dconf-editor]
 show-warning=false
 
+[org/gnome/Console]
+audible-bell=false
+custom-font='FiraCode Nerd Font 10'
+use-system-font=false
+visual-bell=false
+
 [org/gnome/desktop/input-sources]
 per-window=true
 sources=[('xkb', 'es'), ('xkb', 'es+nodeadkeys')]
@@ -22,7 +28,7 @@ custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybin
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal]
 binding='<Super>Return'
-command='kitty'
+command='kgx'
 name='Launch terminal'
 
 [org/gnome/settings-daemon/plugins/power]
@@ -35,14 +41,6 @@ switch-applications=@as []
 switch-applications-backward=@as []
 switch-windows=['<Alt>Tab']
 switch-windows-backward=['<Shift><Alt>Tab']
-
-[org/gnome/terminal/legacy/profiles:]
-list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
-
-[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
-audible-bell=false
-font='FiraCode Nerd Font 12'
-use-system-font=false
 
 [org/gtk/gtk4/settings/file-chooser]
 show-hidden=true
