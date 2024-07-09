@@ -17,9 +17,6 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ## zoxide
 sudo dnf --assumeyes install zoxide
 
-# kitty
-sudo dnf --assumeyes install kitty
-
 # neovim
 sudo dnf --assumeyes install neovim
 
