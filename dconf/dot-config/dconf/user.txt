@@ -8,9 +8,9 @@ allow-volume-above-100-percent=true
 event-sounds=false
 
 [org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal/']
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal]
 binding='<Super>Return'
 command='gnome-terminal'
 name='Launch terminal'
@@ -34,6 +34,7 @@ list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 font='FiraCode Nerd Font 12'
+use-system-font=false
 
 [org/gtk/gtk4/settings/file-chooser]
 show-hidden=true
