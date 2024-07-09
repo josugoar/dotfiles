@@ -15,9 +15,9 @@ set --global fish_cursor_external line
 set --global fish_cursor_visual block
 set --global fish_key_bindings fish_vi_key_bindings
 
+zoxide init --cmd cd fish | source
+
 function __last_history_item
   echo $history[1]
 end
 abbr --add !! --position anywhere --function __last_history_item
-
-zoxide init --cmd cd fish | source
