@@ -10,6 +10,7 @@ user_pref("browser.tabs.warnOnClose", true);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("doh-rollout.disable-heuristics", true);
 user_pref("dom.security.https_only_mode", true);
+user_pref("findbar.highlightAll", true);
 user_pref("media.eme.enabled", true);
 user_pref("network.http.referer.disallowCrossSiteRelaxingDefault.top_navigation", true);
 user_pref("network.trr.mode", 3);
