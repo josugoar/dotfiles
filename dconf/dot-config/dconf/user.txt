@@ -3,7 +3,7 @@ show-warning=false
 
 [org/gnome/Console]
 audible-bell=false
-custom-font='FiraCode Nerd Font 10'
+custom-font='FiraCode Nerd Font 14'
 use-system-font=false
 visual-bell=false
 
@@ -41,6 +41,14 @@ switch-applications=@as []
 switch-applications-backward=@as []
 switch-windows=['<Alt>Tab']
 switch-windows-backward=['<Shift><Alt>Tab']
+
+[org/gnome/terminal/legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=false
+font='FiraCode Nerd Font 14'
+use-system-font=false
 
 [org/gtk/gtk4/settings/file-chooser]
 show-hidden=true
