@@ -27,7 +27,7 @@
     "editor.tabCompletion": "on",
     "explorer.autoReveal": false,
     "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1,
+        "asvetliakov.vscode-neovim": 1
     },
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "afterDelay",
@@ -50,21 +50,20 @@
     "terminal.integrated.enableImages": true,
     "vscode-neovim.compositeKeys": {
         "jj": {
-            "command": "vscode-neovim.escape",
-        },
+            "command": "vscode-neovim.escape"
+        }
     },
     "window.confirmBeforeClose": "keyboardOnly",
     "window.enableMenuBarMnemonics": false,
     "window.restoreFullscreen": true,
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 2,
-    "workbench.colorTheme": "GitHub Dark Dimmed",
     "workbench.editor.wrapTabs": true,
     "workbench.editorAssociations": {
-        "*.md": "default",
+        "*.md": "default"
     },
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
     "workbench.startupEditor": "none",
-    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.view.alwaysShowHeaderActions": true
 }
