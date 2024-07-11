@@ -31,7 +31,6 @@
     },
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "afterDelay",
-    "files.autoSaveWorkspaceFilesOnly": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
