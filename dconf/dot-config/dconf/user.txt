@@ -42,6 +42,9 @@ switch-applications-backward=@as []
 switch-windows=['<Alt>Tab']
 switch-windows-backward=['<Shift><Alt>Tab']
 
+[org/gnome/desktop/wm/preferences]
+focus-mode='sloppy'
+
 [org/gnome/terminal/legacy/profiles:]
 list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
 
