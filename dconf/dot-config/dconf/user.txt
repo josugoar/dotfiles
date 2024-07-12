@@ -37,7 +37,7 @@ sleep-inactive-ac-type='nothing'
 sleep-inactive-battery-type='nothing'
 
 [org/gnome/shell]
-enabled-extensions=['tiling-assistant@leleat-on-github']
+enabled-extensions=['background-logo@fedorahosted.org', 'tiling-assistant@leleat-on-github', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com']
 
 [org/gnome/desktop/wm/keybindings]
 switch-applications=@as []
