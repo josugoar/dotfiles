@@ -36,6 +36,9 @@ idle-dim=false
 sleep-inactive-ac-type='nothing'
 sleep-inactive-battery-type='nothing'
 
+[org/gnome/shell]
+enabled-extensions=['tiling-assistant@leleat-on-github']
+
 [org/gnome/desktop/wm/keybindings]
 switch-applications=@as []
 switch-applications-backward=@as []
