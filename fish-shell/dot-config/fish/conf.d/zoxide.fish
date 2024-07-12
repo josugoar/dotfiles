@@ -11,7 +11,7 @@ function __zoxide_z_complete
         # If the last argument is empty and the one before doesn't start with
         # $__zoxide_z_prefix, use interactive selection.
         set -l query $tokens[2..-1]
-        set -l result (zoxide query --exclude (__zoxide_pwd) --interactive -- $query)
+        set -l result (zoxide query --exclude (__zoxide_pwd) --interactive -- $query 2>/dev/null)
         and echo $__zoxide_z_prefix$result
         and commandline --function repaint execute
     end
