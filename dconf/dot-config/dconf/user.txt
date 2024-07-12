@@ -8,7 +8,6 @@ use-system-font=false
 visual-bell=false
 
 [org/gnome/TextEditor]
-show-line-numbers=true
 spellcheck=false
 wrap-text=false
 
