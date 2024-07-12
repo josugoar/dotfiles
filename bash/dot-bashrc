@@ -1,3 +1,5 @@
+[[ $- == *i* ]] && source "$HOME/.local/share/blesh/ble.sh" --noattach
+
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc
 fi
@@ -17,3 +19,5 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+
+[[ ${BLE_VERSION-} ]] && ble-attach
