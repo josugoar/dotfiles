@@ -7,9 +7,6 @@ custom-font='FiraCode Nerd Font 14'
 use-system-font=false
 visual-bell=false
 
-[org/gnome/Snapshot]
-play-shutter-sound=false
-
 [org/gnome/TextEditor]
 show-line-numbers=true
 spellcheck=false
@@ -30,6 +27,9 @@ idle-delay=uint32 0
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=true
 event-sounds=false
+
+[org/gnome/mutter]
+attach-modal-dialogs=true
 
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal/']
