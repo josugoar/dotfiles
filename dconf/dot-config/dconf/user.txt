@@ -7,6 +7,9 @@ custom-font='FiraCode Nerd Font 14'
 use-system-font=false
 visual-bell=false
 
+[org/gnome/Snapshot]
+play-shutter-sound=false
+
 [org/gnome/TextEditor]
 show-line-numbers=true
 spellcheck=false
@@ -30,6 +33,9 @@ event-sounds=false
 
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal/']
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal]
 binding='<Super>Return'
