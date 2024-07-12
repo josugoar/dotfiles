@@ -59,6 +59,10 @@ focus-mode='sloppy'
 [org/gnome/shell/window-switcher]
 current-workspace-only=false
 
+[org/gnome/terminal/legacy/keybindings]
+next-tab='<Primary>Tab'
+prev-tab='<Primary><Shift>Tab'
+
 [org/gnome/terminal/legacy/profiles:]
 list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
 
