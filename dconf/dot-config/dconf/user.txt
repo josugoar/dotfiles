@@ -2,10 +2,8 @@
 show-warning=false
 
 [org/gnome/Console]
-audible-bell=false
 custom-font='FiraCode Nerd Font 14'
 use-system-font=false
-visual-bell=false
 
 [org/gnome/TextEditor]
 spellcheck=false
@@ -65,7 +63,6 @@ current-workspace-only=false
 list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
-audible-bell=false
 font='FiraCode Nerd Font 14'
 use-system-font=false
 
