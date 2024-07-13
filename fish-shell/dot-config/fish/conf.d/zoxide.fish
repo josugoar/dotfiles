@@ -1,3 +1,7 @@
+if not status is-interactive
+    return
+end
+
 zoxide init --cmd cd fish | source
 
 function __zoxide_z_complete
