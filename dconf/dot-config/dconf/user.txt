@@ -47,9 +47,6 @@ sleep-inactive-battery-type='nothing'
 [org/gnome/shell]
 enabled-extensions=['background-logo@fedorahosted.org', 'tiling-assistant@leleat-on-github', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com']
 
-[org/gnome/shell/extensions/tiling-assistant]
-dynamic-keybinding-behavior=2
-
 [org/gnome/desktop/wm/keybindings]
 switch-applications=@as []
 switch-applications-backward=@as []
