@@ -10,7 +10,6 @@
     "editor.defaultColorDecorators": true,
     "editor.dragAndDrop": false,
     "editor.find.seedSearchStringFromSelection": "selection",
-    "editor.fontFamily": "'FiraCode Nerd Font', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -48,6 +47,7 @@
     "settingsSync.keybindingsPerPlatform": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.enableImages": true,
+    "terminal.integrated.fontFamily": "Symbols Nerd Font",
     "vscode-neovim.compositeKeys": {
         "jj": {
             "command": "vscode-neovim.escape"
