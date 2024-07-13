@@ -46,3 +46,6 @@ enabled-extensions=['tiling-assistant@leleat-on-github', 'launch-new-instance@gn
 
 [org/gnome/shell/window-switcher]
 current-workspace-only=false
+
+[system/locale]
+region='en_GB.UTF-8'
