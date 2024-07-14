@@ -4,6 +4,7 @@ end
 
 zoxide init --cmd cd fish | source
 
+# Completions.
 function __zoxide_z_complete
     set -l tokens (commandline --current-process --tokenize)
     set -l curr_tokens (commandline --cut-at-cursor --current-process --tokenize)
