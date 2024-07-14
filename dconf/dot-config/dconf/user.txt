@@ -4,7 +4,10 @@ sources=[('xkb', 'es'), ('xkb', 'es+nodeadkeys')]
 
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
+document-font-name='sans-serif 11'
+font-name='system-ui 11'
 gtk-theme='Adwaita-dark'
+monospace-font-name='monospace 10'
 
 [org/gnome/desktop/session]
 idle-delay=uint32 0
