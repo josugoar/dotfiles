@@ -4,27 +4,38 @@ end
 
 starship init fish | source
 
-function __starship_add_newline --on-event fish_cancel --on-event fish_prompt
-    function __starship_add_newline --on-event fish_cancel --on-event fish_prompt
-        echo
+function add_newline --on-event fish_cancel --on-event fish_prompt
+    if test "$NEWLINE" = "1"
+        printf \n
     end
+    set -g NEWLINE 1
 end
 
 enable_transience
 
 function reset-transient --on-event fish_prompt
-    set --global TRANSIENT 0
+    set -g TRANSIENT 0
 end
 
 function transient_execute
-    set --global TRANSIENT 1
-    commandline --function repaint execute
+    if commandline --paging-mode
+        set -g TRANSIENT 0
+        commandline -f accept-autosuggestion
+        return
+    end
+    if commandline --is-valid || test -z (commandline --current-buffer | string trim -l | string collect)
+        set -g TRANSIENT 1
+        commandline -f repaint
+    else
+        set -g TRANSIENT 0
+    end
+    commandline -f execute
 end
 
 function starship_transient_prompt_func
-    if commandline --is-valid
+    if commandline --is-valid && test -n (commandline --current-buffer | string trim -l | string collect)
         starship module character    
     else
-        echo
+        printf \n
     end
 end
