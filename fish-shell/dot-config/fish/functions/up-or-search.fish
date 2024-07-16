@@ -1,4 +1,4 @@
-function up-or-prefix-search -d "Prefix search back or move cursor up 1 line"
+function up-or-search -d "Search back or move cursor up 1 line"
     if commandline --search-mode
         commandline -f history-prefix-search-backward
         return
