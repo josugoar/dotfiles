@@ -1,5 +1,5 @@
 function fish_user_key_bindings
-    set -l modes (bind --list-modes)
+    set -l modes (bind -L)
 
     for mode in $modes
         bind -M $mode \e\[A up-or-prefix-search
