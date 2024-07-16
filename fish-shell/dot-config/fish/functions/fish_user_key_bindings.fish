@@ -7,7 +7,7 @@ function fish_user_key_bindings
     end
 
     if contains insert $modes
-        if functions --query fzf_key_bindings
+        if functions -q fzf_key_bindings
             bind -e \cr
         end
 
