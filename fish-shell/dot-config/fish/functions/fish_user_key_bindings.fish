@@ -1,12 +1,5 @@
 function fish_user_key_bindings
-    set -l modes (bind -L)
-
-    for mode in $modes
-        bind -M $mode \e\[A up-or-prefix-search
-        bind -M $mode \e\[B down-or-prefix-search
-    end
-
-    if contains insert $modes
+    if contains insert (bind -L)
         if functions -q fzf_key_bindings
             bind -e \cr
         end
