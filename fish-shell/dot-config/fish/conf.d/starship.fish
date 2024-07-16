@@ -9,3 +9,22 @@ function __starship_add_newline --on-event fish_cancel --on-event fish_prompt
         echo
     end
 end
+
+enable_transience
+
+function reset-transient --on-event fish_prompt
+    set --global TRANSIENT 0
+end
+
+function transient_execute
+    set --global TRANSIENT 1
+    commandline --function repaint execute
+end
+
+function starship_transient_prompt_func
+    if commandline --is-valid
+        starship module character    
+    else
+        echo
+    end
+end
