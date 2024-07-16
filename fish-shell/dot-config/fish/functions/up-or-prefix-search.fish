@@ -1,20 +1,14 @@
-# Depending on cursor position and current mode, either prefix search backward or move up one line"
 function up-or-prefix-search -d "Prefix search back or move cursor up 1 line"
-    # If we are already in search mode, continue
     if commandline --search-mode
         commandline -f history-prefix-search-backward
         return
     end
 
-    # If we are navigating the pager, then up always navigates
     if commandline --paging-mode
         commandline -f up-line
         return
     end
 
-    # We are not already in search mode.
-    # If we are on the top line, start search mode,
-    # otherwise move up
     set -l lineno (commandline -L)
 
     switch $lineno
