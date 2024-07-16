@@ -1,21 +1,21 @@
 function fish_user_key_bindings
-    set --local modes (bind --list-modes)
+    set -l modes (bind --list-modes)
 
     for mode in $modes
-        bind --mode $mode \e\[A up-or-prefix-search
-        bind --mode $mode \e\[B down-or-prefix-search
+        bind -M $mode \e\[A up-or-prefix-search
+        bind -M $mode \e\[B down-or-prefix-search
     end
 
     if contains insert $modes
-        if functions --query fzf_key_bindings
-            bind --erase \cr
+        if builtin functions --query fzf_key_bindings
+            bind -e \cr
         end
 
-        bind --mode insert jj "if commandline --paging-mode
-                                   commandline --function cancel
-                               else
-                                   set fish_bind_mode default
-                                   commandline --function backward-char repaint
-                               end"
+        bind -M insert jj "if commandline --paging-mode
+                               commandline -f cancel
+                           else
+                               set fish_bind_mode default
+                               commandline -f backward-char repaint
+                           end"
     end
 end
