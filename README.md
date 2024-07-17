@@ -15,6 +15,8 @@ cd dotfiles
 sudo ./install.sh
 ```
 
+**THIS ASSUMES FEDORA AS THE OPERATING SYSTEM, INSTALL PROGRAMS MANUALLY OTHERWISE.**
+
 **REMEBER, THE INSTALLATION SCRIPT INSTALLS ALL PACKAGES, WHICH MIGHT NOT BE THE DESIRED BEHAVIOUR IN YOUR CASE.**
 
 The dotfiles will be symlinked to their appropiate locations using **GNU Stow**. There is an effort to respect modern desktop Linux standards aiming to use the **XDG Base Directory Specification** and the default `XDG_CONFIG_HOME`.
