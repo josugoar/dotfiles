@@ -4,16 +4,20 @@ end
 
 starship init fish | source
 
-function add_newline --on-event fish_cancel --on-event fish_prompt
+function add_newline --on-event fish_prompt
     if test "$NEWLINE" = "1"
         printf \n
     end
     set -g NEWLINE 1
 end
 
-enable_transience
+function starship_transient_prompt_func
+    if commandline --is-valid && test -n (commandline --current-buffer | string trim -l | string collect)
+        starship module character    
+    end
+end
 
-function reset-transient --on-event fish_prompt
+function reset-transient --on-event fish_cancel --on-event fish_prompt
     set -g TRANSIENT 0
 end
 
@@ -32,10 +36,4 @@ function transient_execute
     commandline -f execute
 end
 
-function starship_transient_prompt_func
-    if commandline --is-valid && test -n (commandline --current-buffer | string trim -l | string collect)
-        starship module character    
-    else
-        printf \n
-    end
-end
+enable_transience
