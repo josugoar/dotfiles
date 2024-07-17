@@ -2,7 +2,7 @@
 
 > Personal dotfiles for use with Fedora Workstation 40
 
-> [!CAUTION]  
+> [!CAUTION]
 > Be careful when running any unaudited scripts. These are my personal dotfiles and there might be some configurations which you may not need or like. I suggest to pick and choose only the packages you would want to install.
 
 ## Installation
@@ -15,11 +15,12 @@ cd dotfiles
 sudo ./install.sh
 ```
 
-**THIS ASSUMES FEDORA AS THE OPERATING SYSTEM, INSTALL PROGRAMS MANUALLY OTHERWISE.**
+> [!WARNING]
+> THIS ASSUMES FEDORA AS THE OPERATING SYSTEM, INSTALL PROGRAMS MANUALLY OTHERWISE.
+>
+> REMEBER, THE INSTALLATION SCRIPT INSTALLS ALL PACKAGES, WHICH MIGHT NOT BE THE DESIRED BEHAVIOUR IN YOUR CASE.
 
-**REMEBER, THE INSTALLATION SCRIPT INSTALLS ALL PACKAGES, WHICH MIGHT NOT BE THE DESIRED BEHAVIOUR IN YOUR CASE.**
-
-The dotfiles will be symlinked to their appropiate locations using **GNU Stow**. There is an effort to respect modern desktop Linux standards aiming to use the **XDG Base Directory Specification** and the default `XDG_CONFIG_HOME`.
+The dotfiles will be symlinked to their appropiate locations using **GNU Stow**.There is an effort to respect modern desktop Linux standards aiming to use the **XDG Base Directory Specification** and the default `XDG_CONFIG_HOME`.
 
 ## Overview
 
