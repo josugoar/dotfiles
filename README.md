@@ -36,6 +36,9 @@ Anyway, exploring tiling window managers could be interesting, like **Hyprland**
 
 Most importantly, one of the single most impactful aspects of my day to day browsing is configured, **UBlock Origin** (it's usage is literally transformative). Thre is also **TWP** to translate websites, mostly because the translation engine integrated with the browser doesn't have good support, if at all, for Chinese, Japanese and Bengalese.
 
+> [!NOTE]  
+> When installing the dotfiles, Firefox user configuration must be moved to the appropiate profile directory. This is because each profile has a unique identification which is part of the directory name, so manual intervention is required.
+
 ### Terminal emulator
 
 While having tried multiple terminal emulators in the form of **kitty**, **wezterm**, **alacritty** and **foot**, I feel like the default terminal emulator that comes with the distribution, be it **console (kgx)** or **gnome-terminal** are enough for my needs. Except for the added padding, obviously.
