@@ -26,6 +26,7 @@ user_pref("privacy.fingerprintingProtection", true);
 user_pref("privacy.partition.network_state.ocsp_cache", true);
 user_pref("privacy.query_stripping.enabled", true);
 user_pref("privacy.query_stripping.enabled.pbmode", true);
+user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 user_pref("privacy.trackingprotection.emailtracking.enabled", true);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
