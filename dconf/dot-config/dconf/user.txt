@@ -19,8 +19,8 @@ event-sounds=false
 [org/gnome/desktop/wm/keybindings]
 switch-applications=@as []
 switch-applications-backward=@as []
-switch-windows=['<Alt>Tab']
-switch-windows-backward=['<Shift><Alt>Tab']
+switch-windows=['<Super>Tab', '<Alt>Tab']
+switch-windows-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
 
 [org/gnome/desktop/wm/preferences]
 focus-mode='sloppy'
