@@ -14,6 +14,7 @@ user_pref("devtools.toolbox.host", "right");
 user_pref("doh-rollout.disable-heuristics", true);
 user_pref("dom.private-attribution.submission.enabled", false);
 user_pref("dom.security.https_only_mode", true);
+user_pref("extensions.webextensions.restrictedDomains", "");
 user_pref("findbar.highlightAll", true);
 user_pref("intl.regional_prefs.use_os_locales", true);
 user_pref("media.eme.enabled", true);
