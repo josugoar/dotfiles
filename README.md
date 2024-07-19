@@ -34,7 +34,7 @@ Anyway, exploring tiling window managers could be interesting, like **Hyprland**
 
 **Firefox** might be my most used program. Basic privacy settings are configured and necessary options for my workflow of choice are enabled, such as <kbd>Control</kbd> + <kbd>Tab</kbd> switching.
 
-Most importantly, one of the single most impactful aspects of my day to day browsing is configured, **UBlock Origin** (it's usage is literally transformative). Thre is also **TWP** to translate websites, mostly because the translation engine integrated with the browser doesn't have good support, if at all, for Chinese, Japanese and Bengalese.
+Most importantly, one of the single most impactful aspects of my day to day browsing is configured, **UBlock Origin** (it's usage is literally transformative). There is also **TWP** to translate websites, mostly because the translation engine integrated with the browser doesn't have good support, if at all, for Chinese, Japanese and Bengalese.
 
 > [!NOTE]  
 > When installing the dotfiles, Firefox user configuration must be moved to the appropiate profile directory. This is because each profile has a unique identification which is part of the directory name, so manual intervention is required.
