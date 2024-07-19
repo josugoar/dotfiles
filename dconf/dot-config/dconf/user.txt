@@ -1,3 +1,6 @@
+[desktop/ibus/panel/emoji]
+hotkey=['<Super>semicolon']
+
 [org/gnome/desktop/input-sources]
 per-window=true
 sources=[('xkb', 'es'), ('xkb', 'es+nodeadkeys')]
