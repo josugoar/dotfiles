@@ -43,7 +43,7 @@ Most importantly, one of the single most impactful aspects of my day to day brow
 
 ### Terminal emulator
 
-While having tried multiple terminal emulators in the form of **kitty**, **wezterm**, **alacritty** and **foot**, I feel like the default terminal emulator that comes with the distribution, be it **console (kgx)** or **gnome-terminal** are enough for my needs. Except for the added padding, obviously.
+While having tried multiple terminal emulators in the form of **kitty**, **wezterm**, **alacritty** and **foot**, I feel like the default terminal emulator that comes with the distribution, be it **console (kgx)** or **gnome-terminal**, are enough for my needs. Except for the added padding, obviously.
 
 ### Shell
 
