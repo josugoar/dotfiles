@@ -31,3 +31,4 @@ user_pref("privacy.trackingprotection.emailtracking.enabled", true);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 user_pref("signon.rememberSignons", false);
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
