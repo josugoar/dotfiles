@@ -40,7 +40,7 @@ sleep-inactive-battery-type='nothing'
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal/']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal]
-binding='<Super>Return'
+binding='<Control><Alt>t'
 command='gnome-terminal'
 name='Launch terminal'
 
