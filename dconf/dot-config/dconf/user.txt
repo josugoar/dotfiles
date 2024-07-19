@@ -45,7 +45,7 @@ command='gnome-terminal'
 name='Launch terminal'
 
 [org/gnome/shell]
-enabled-extensions=['tiling-assistant@leleat-on-github', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'tiling-assistant@leleat-on-github']
 
 [org/gnome/shell/extensions/tiling-assistant]
 # https://github.com/Leleat/Tiling-Assistant/issues/306
