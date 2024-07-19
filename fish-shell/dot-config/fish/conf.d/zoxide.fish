@@ -15,5 +15,6 @@ function __zoxide_z_complete
         set -l result (zoxide query --exclude (__zoxide_pwd) --interactive -- $query 2>/dev/null)
         and echo $__zoxide_z_prefix$result
         and commandline --function repaint execute
+        or commandline --function repaint
     end
 end
