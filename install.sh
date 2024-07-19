@@ -12,6 +12,9 @@ chsh --shell /usr/bin/fish
 # fzf
 dnf install fzf
 
+# gnome-fuzzy-app-search
+curl https://extensions.gnome.org/extension-data/gnome-fuzzy-app-searchgnome-shell-extensions.Czarlie.gitlab.com.v24.shell-extension.zip | unzip -d ~/.local/share/gnome-shell/extensions/gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com
+
 # gnome-shell-extensions
 dnf install gnome-shell-extension-launch-new-instance
 
@@ -39,7 +42,7 @@ dnf install ripgrep
 curl https://starship.rs/install.sh | sh
 
 # tiling-assistant
-curl https://github.com/Leleat/Tiling-Assistant/releases/latest/download/tiling-assistant@leleat-on-github.shell-extension.zip | unzip -d ~/.local/share/gnome-shell/extensions/tiling-assistant@leleat-on-github
+curl https://extensions.gnome.org/extension-data/tiling-assistantleleat-on-github.v47.shell-extension.zip | unzip -d ~/.local/share/gnome-shell/extensions/tiling-assistant@leleat-on-github
 
 # vscode
 rpm --import https://packages.microsoft.com/keys/microsoft.asc
