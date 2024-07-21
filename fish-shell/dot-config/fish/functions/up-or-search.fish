@@ -18,7 +18,6 @@ function up-or-search -d "Search back or move cursor up 1 line"
             else
                 set -g search_mode history-prefix-search-backward
             end
-
             commandline -f history-prefix-search-backward
 
         case '*'
