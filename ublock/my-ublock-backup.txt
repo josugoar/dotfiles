@@ -5,8 +5,7 @@
     "cloudStorageEnabled": true,
     "contextMenuEnabled": false,
     "importedLists": [],
-    "popupPanelSections": 31,
-    "showIconBadge": false
+    "popupPanelSections": 31
   },
   "selectedFilterLists": [
     "user-filters",
