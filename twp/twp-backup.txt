@@ -1,5 +1,5 @@
 {
-    "timeStamp": 1720114064703,
+    "timeStamp": 1721561517418,
     "version": "10.0.1.1",
     "uiLanguage": "default",
     "pageTranslatorService": "google",
@@ -18,7 +18,7 @@
     "targetLanguages": [
         "en",
         "es",
-        "de"
+        "eu"
     ],
     "alwaysTranslateSites": [],
     "neverTranslateSites": [],
@@ -29,7 +29,7 @@
     "customDictionary": {},
     "showTranslatePageContextMenu": "no",
     "showTranslateSelectedContextMenu": "no",
-    "showButtonInTheAddressBar": "no",
+    "showButtonInTheAddressBar": "yes",
     "showOriginalTextWhenHovering": "no",
     "showTranslateSelectedButton": "no",
     "whenShowMobilePopup": "only-when-i-touch",
