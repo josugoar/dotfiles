@@ -30,7 +30,7 @@ function starship_transient_prompt_func_options --on-event fish_prompt
     set -g STARSHIP_JOBS (count (jobs -p))
 end
 
-function reset-transient --on-event fish_cancel --on-event fish_posterror --on-event fish_prompt
+function reset-transient --on-event fish_posterror --on-event fish_prompt
     set -g TRANSIENT 0
 end
 
