@@ -1,6 +1,6 @@
 function up-or-search -d "Search back or move cursor up 1 line"
     if commandline --search-mode
-        commandline -f history-prefix-search-backward
+        commandline -f $search_mode
         return
     end
 
@@ -13,6 +13,12 @@ function up-or-search -d "Search back or move cursor up 1 line"
 
     switch $lineno
         case 1
+            if test -z (commandline --current-buffer | string collect)
+                set -g search_mode history-search-backward
+            else
+                set -g search_mode history-prefix-search-backward
+            end
+
             commandline -f history-prefix-search-backward
 
         case '*'
