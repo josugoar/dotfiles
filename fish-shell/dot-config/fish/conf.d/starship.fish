@@ -13,7 +13,7 @@ end
 
 function starship_transient_prompt_func
     if commandline --is-valid || test $status -eq 1 && test -n (commandline --current-buffer | string trim -l | string collect)
-        starship module --terminal-width="$COLUMNS" --status=$STARSHIP_CMD_STATUS character    
+        starship module --status=$STARSHIP_CMD_STATUS character    
     end
 end
 
