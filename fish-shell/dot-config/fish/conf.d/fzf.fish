@@ -3,3 +3,6 @@ if not status is-interactive
 end
 
 fzf --fish | source
+
+bind -e \cr
+bind -e -M insert \cr
