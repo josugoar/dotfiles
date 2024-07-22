@@ -1,6 +1,6 @@
 function fish_user_key_bindings
     set -l cancel_commandline '
-        commandline --replace --current-buffer ""
+        commandline -r ""
         emit fish_cancel
     '
     bind \cc $cancel_commandline
