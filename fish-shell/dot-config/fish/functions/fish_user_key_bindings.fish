@@ -9,19 +9,4 @@ function fish_user_key_bindings
             '
         end
     end
-
-    if contains $fish_key_bindings fish_vi_key_bindings fish_hybrid_key_bindings
-        set -l on_escape '
-            if commandline -P
-                commandline -f cancel
-            else
-                set fish_bind_mode default
-                if test (count (commandline --cut-at-cursor | tail -c2)) != 2
-                    commandline -f backward-char
-                end
-                commandline -f repaint-mode
-            end
-        '
-        bind -M insert jj $on_escape
-    end
 end
