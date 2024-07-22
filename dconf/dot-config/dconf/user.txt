@@ -4,6 +4,7 @@ hotkey=['<Super>semicolon']
 [org/gnome/desktop/input-sources]
 per-window=true
 sources=[('xkb', 'es'), ('xkb', 'es+nodeadkeys')]
+xkb-options=['caps:escape_shifted_capslock']
 
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
