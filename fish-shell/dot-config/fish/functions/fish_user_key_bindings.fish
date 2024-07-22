@@ -24,11 +24,4 @@ function fish_user_key_bindings
         '
         bind -M insert jj $on_escape
     end
-
-    if functions -q fzf_key_bindings
-        bind -e \cr
-        if contains $fish_key_bindings fish_vi_key_bindings fish_hybrid_key_bindings
-            bind -e -M insert \cr
-        end
-    end
 end
