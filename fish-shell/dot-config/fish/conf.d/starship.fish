@@ -13,21 +13,12 @@ end
 
 function starship_transient_prompt_func
     if commandline --is-valid || test $status -eq 1 && test -n (commandline --current-buffer | string trim -l | string collect)
-        starship module character    
+        starship module --terminal-width="$COLUMNS" --status=$STARSHIP_CMD_STATUS character    
     end
 end
 
 function starship_transient_prompt_func_options --on-event fish_prompt
-    switch "$fish_key_bindings"
-        case fish_hybrid_key_bindings fish_vi_key_bindings
-            set -g STARSHIP_KEYMAP "$fish_bind_mode"
-        case '*'
-            set -g STARSHIP_KEYMAP insert
-    end
-    set -g STARSHIP_CMD_PIPESTATUS $pipestatus
     set -g STARSHIP_CMD_STATUS $status
-    set -g STARSHIP_DURATION "$CMD_DURATION$cmd_duration"
-    set -g STARSHIP_JOBS (count (jobs -p))
 end
 
 function reset-transient --on-event fish_posterror --on-event fish_prompt
