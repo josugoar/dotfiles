@@ -1,4 +1,8 @@
 function fish_user_key_bindings
+    if test (fish_vercmp $version 3.7.0) -ne 1
+        bind \cc 'commandline -r ""'
+    end
+
     if contains insert (bind -L)
         if functions -q fzf_key_bindings
             bind -e \cr
