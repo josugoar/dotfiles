@@ -80,21 +80,10 @@ $crystal\
 $custom\
 $sudo\
 $cmd_duration\
-$fill\
-$jobs\
-$battery\
-$time\
-$status\
-$os\
-$container\
-$shell\
 $line_break\
 $character"""
 
 add_newline = false
-
-[battery]
-diabled = true
 
 [aws]
 symbol = "  "
