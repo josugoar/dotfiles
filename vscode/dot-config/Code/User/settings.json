@@ -5,9 +5,7 @@
     "debug.terminal.clearBeforeReusing": true,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "off",
-    "editor.autoClosingDelete": "always",
     "editor.cursorSmoothCaretAnimation": "on",
-    "editor.defaultColorDecorators": true,
     "editor.dragAndDrop": false,
     "editor.find.seedSearchStringFromSelection": "selection",
     "editor.fontLigatures": true,
@@ -41,23 +39,18 @@
     "notebook.output.scrolling": true,
     "notebook.undoRedoPerCell": false,
     "scm.workingSets.enabled": true,
-    "security.promptForRemoteFileProtocolHandling": false,
     "security.promptForLocalFileProtocolHandling": false,
+    "security.promptForRemoteFileProtocolHandling": false,
     "security.workspace.trust.enabled": false,
     "settingsSync.keybindingsPerPlatform": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.enableImages": true,
-    "terminal.integrated.fontFamily": "Symbols Nerd Font",
-    "vscode-neovim.compositeKeys": {
-        "jj": {
-            "command": "vscode-neovim.escape"
-        }
-    },
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
     "window.confirmBeforeClose": "keyboardOnly",
     "window.enableMenuBarMnemonics": false,
     "window.restoreFullscreen": true,
     "window.titleBarStyle": "custom",
-    "window.zoomLevel": 2,
     "workbench.editor.wrapTabs": true,
     "workbench.editorAssociations": {
         "*.md": "default"
