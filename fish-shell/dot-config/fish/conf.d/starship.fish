@@ -37,7 +37,7 @@ end
 function transient_execute
     if commandline --paging-mode
         set -g TRANSIENT 0
-        commandline -f accept-autosuggestion
+        commandline -f execute
         return
     end
     if commandline --is-valid || test $status -eq 1 || test -z (commandline --current-buffer | string trim -l | string collect)
