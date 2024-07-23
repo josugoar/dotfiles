@@ -52,7 +52,9 @@ The selected shell is none other than the friendly interactive shell **fish**. W
 The dotfiles only directly configure the programs that have direct shell integration and modify the user's workflow, like **fzf** and **zoxide**. The prompt is **starship** but it is heavily modified to fix all the transient prompt problems (like not enabling transience when accepting an empty command line) and decluttering the output when not running a command.
 
 > [!NOTE]  
-> The <kbd>Control</kbd> + <kbd>C</kbd> keybinding requires **fish-shell >= 3.8.0** (not yet released as of writing) to work as intended. Without it, the transient prompt cancelation will show the **\cC** escape indicator and the prompt will **not** be overridden.
+> ~The <kbd>Control</kbd> + <kbd>C</kbd> keybinding requires **fish-shell >= 3.8.0** (not yet released as of writing) to work as intended. Without it, the transient prompt cancelation will show the **\cC** escape indicator and the prompt will **not** be overridden.~
+>
+> The prompt might redraw incorrectly (duplicated) on **fish-shell >= 3.8.0** (not yet released as of writing) after entering certain keybindings, presumably due to some redrawing race condition upstream. Preavious versions don't seem to be affected.
 
 ### Text editor(s)
 
