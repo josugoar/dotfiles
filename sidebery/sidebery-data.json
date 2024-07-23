@@ -5,7 +5,7 @@
         "nativeScrollbarsLeft": false,
         "selWinScreenshots": false,
         "updateSidebarTitle": true,
-        "markWindow": false,
+        "markWindow": true,
         "markWindowPreface": "[Sidebery] ",
         "ctxMenuNative": false,
         "ctxMenuRenderInact": true,
