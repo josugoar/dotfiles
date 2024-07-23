@@ -33,7 +33,7 @@ dnf install neovim
 
 # nerd-fonts
 git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git ~/.nerd-fonts
-~/.nerd-fonts/install.sh NerdFontsSymbolsOnly
+~/.nerd-fonts/install.sh FiraCodeNerdFont NerdFontsSymbolsOnly
 
 # ripgrep
 dnf install ripgrep
@@ -54,4 +54,4 @@ dnf install zoxide
 
 # stow
 sudo dnf install stow
-stow --dotfiles --target "$HOME" darkreader dconf firefox fish-shell fontconfig git gtk nano neovim starship twp ublock vscode
+stow --dotfiles --target "$HOME" darkreader dconf firefox fish-shell fontconfig git gtk nano neovim sidebery starship twp ublock vscode
