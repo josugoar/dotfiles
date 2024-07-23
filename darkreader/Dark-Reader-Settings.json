@@ -1,7 +1,7 @@
 {
     "schemeVersion": 0,
     "enabled": true,
-    "fetchNews": true,
+    "fetchNews": false,
     "theme": {
         "mode": 1,
         "brightness": 100,
@@ -49,38 +49,5 @@
     "enableForPDF": true,
     "enableForProtectedPages": true,
     "enableContextMenus": false,
-    "detectDarkTheme": true,
-    "automationBehaviour": "OnOff",
-    "displayedNews": [
-        "mobile",
-        "news-2023",
-        "thanks-2023"
-    ],
-    "readNews": [
-        "v5-survey",
-        "news-2023",
-        "filter-mode",
-        "mobile",
-        "detect-dark-theme",
-        "no-war",
-        "chrome-favorites-2021",
-        "thanks-2021",
-        "5m-users",
-        "v4-9-16",
-        "v4-9",
-        "attention",
-        "dr-5-announcement",
-        "2m-users",
-        "automation",
-        "product-hunt-golden-kitty-2018",
-        "time-settings",
-        "safari",
-        "500k-users",
-        "stylish",
-        "product-hunt",
-        "custom-site-settings",
-        "thanks-for-contribution",
-        "dynamic-theme",
-        "thanks-2023"
-    ]
+    "detectDarkTheme": true
 }
