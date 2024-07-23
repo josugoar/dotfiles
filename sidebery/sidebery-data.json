@@ -234,6 +234,6 @@
             }
         }
     },
-    "sidebarCSS": ":not(:hover) {\n    --tabs-indent: 0px;\n}\n\n.Tab[data-pin=\"false\"] .audio {\n    top: -6px;\n    left: 10px;\n}",
+    "sidebarCSS": ":not(:hover) {\n  --tabs-indent: 0px;\n}\n\n.Tab[data-pin=\"false\"] .audio {\n  top: -5px;\n  left: 10px;\n}\n\n.Tab[data-audible=\"true\"] .t-box .title,\n.Tab[data-muted=\"true\"] .t-box .title,\n.Tab[data-paused=\"true\"] .t-box .title {\n  transform: none;\n}\n",
     "ver": "5.2.0"
 }
