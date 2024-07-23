@@ -30,7 +30,7 @@ switch-windows-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
 focus-mode='sloppy'
 
 [org/gnome/mutter]
-attach-modal-dialogs=true
+attach-modal-dialogs=false
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=true
@@ -52,7 +52,6 @@ name='Launch terminal'
 enabled-extensions=['gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'tiling-assistant@leleat-on-github']
 
 [org/gnome/shell/extensions/tiling-assistant]
-# https://github.com/Leleat/Tiling-Assistant/issues/306
 active-window-hint=0
 # https://github.com/Leleat/Tiling-Assistant/issues/304
 enable-tile-animations=false
