@@ -17,7 +17,7 @@
 
 @media (-moz-gtk-csd-available) {
   :root:is([tabsintitlebar],[sizemode="fullscreen"]) {
-    --uc-window-control-width: 84px;
+    --uc-window-control-width: 26px;
   }
 }
 @media (-moz-platform: macos){
