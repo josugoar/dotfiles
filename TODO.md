@@ -3,7 +3,7 @@
   * Remove disabling animations when bug is fixed
 
 # gtk
-* Update to gtk4 when/if console becomes default terminal emulator
+* Update to gtk4 when/if console becomes default terminal emulator or when gnome-terminal is ported to gtk4
 
 # fontconfig
 * Switch font to "Inter Variable" when GNOME 47 lands
