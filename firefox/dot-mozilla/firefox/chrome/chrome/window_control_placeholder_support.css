@@ -1,7 +1,7 @@
 :root:is([tabsintitlebar], [sizemode="fullscreen"]) {
   --uc-window-control-width: 138px;
-  --uc-window-drag-space-pre: 30px;
-  --uc-window-drag-space-post: 30px;
+  --uc-window-drag-space-pre: 0px;
+  --uc-window-drag-space-post: 0px;
 }
 
 :root:is([tabsintitlebar][sizemode="maximized"], [sizemode="fullscreen"]) {
