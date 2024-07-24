@@ -1,6 +1,6 @@
 #main-window[titlepreface*="[Sidebery] "] #sidebar-box{
   --uc-sidebar-width: 34px;
-  --uc-sidebar-hover-width: 210px;
+  --uc-sidebar-hover-width: 230px;
   --uc-autohide-sidebar-delay: 600ms;
   --uc-autohide-transition-duration: 115ms;
   --uc-autohide-transition-type: linear;
