@@ -8,9 +8,6 @@
 # fontconfig
 * Switch font to "Inter Variable" when GNOME 47 lands
   * Investigate default monospace font pairing
- 
-# sidebery
-* Maybe use scrollbar on the right and default click on tab behaviour (go to preavious active)
 
 # install.sh
 * Use ansible or similar
