@@ -45,7 +45,6 @@
     "settingsSync.keybindingsPerPlatform": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.enableImages": true,
-    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
     "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
     "window.confirmBeforeClose": "keyboardOnly",
     "window.enableMenuBarMnemonics": false,
