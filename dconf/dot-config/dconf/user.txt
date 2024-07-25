@@ -53,3 +53,6 @@ enable-tile-animations=false
 
 [org/gnome/shell/window-switcher]
 current-workspace-only=false
+
+[system/locale]
+region='es_ES.UTF-8'
