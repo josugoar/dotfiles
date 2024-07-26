@@ -1,8 +1,4 @@
-[desktop/ibus/panel/emoji]
-hotkey=['<Super>semicolon']
-
 [org/gnome/desktop/input-sources]
-per-window=true
 sources=[('xkb', 'es'), ('xkb', 'es+nodeadkeys')]
 xkb-options=['caps:escape_shifted_capslock']
 
@@ -47,7 +43,6 @@ name='Launch terminal'
 enabled-extensions=['gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com', 'tiling-assistant@leleat-on-github']
 
 [org/gnome/shell/extensions/tiling-assistant]
-active-window-hint=0
 # https://github.com/Leleat/Tiling-Assistant/issues/304
 enable-tile-animations=false
 
