@@ -4,8 +4,10 @@ xkb-options=['caps:escape_shifted_capslock']
 
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
+document-font-name='sans-serif 11'
+font-name='system-ui 11'
 gtk-theme='Adwaita-dark'
-monospace-font-name='monospace 10'
+monospace-font-name='monospace 11'
 
 [org/gnome/desktop/session]
 idle-delay=uint32 0
