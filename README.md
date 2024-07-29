@@ -1,6 +1,6 @@
 # dotfiles
 
-> Personal dotfiles for use with Fedora Workstation 40
+> Personal dotfiles for use with Fedora Workstation
 
 > [!CAUTION]
 > Be careful when running any unaudited scripts. These are my personal dotfiles and there might be some configurations which you may not need or like. I suggest to pick and choose only the packages you would want to install.
