@@ -1,4 +1,5 @@
 user_pref("app.shield.optoutstudies.enabled", false);
+user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.contentblocking.category", "strict");
 user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
