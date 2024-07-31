@@ -21,9 +21,6 @@ curl https://extensions.gnome.org/extension-data/gnome-fuzzy-app-searchgnome-she
 # gnome-themes-extra
 dnf install gnome-themes-extra
 
-# fira-code
-dnf install fira-code-fonts
-
 # lazygit
 dnf copr enable atim/lazygit
 dnf install lazygit
@@ -33,7 +30,7 @@ dnf install neovim
 
 # nerd-fonts
 git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git ~/.nerd-fonts
-~/.nerd-fonts/install.sh FiraCodeNerdFont NerdFontsSymbolsOnly
+~/.nerd-fonts/install.sh FiraCodeNerdFont
 
 # ripgrep
 dnf install ripgrep
