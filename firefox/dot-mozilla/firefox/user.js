@@ -20,8 +20,6 @@ user_pref("findbar.highlightAll", true);
 user_pref("intl.regional_prefs.use_os_locales", true);
 user_pref("media.eme.enabled", true);
 user_pref("network.http.referer.disallowCrossSiteRelaxingDefault.top_navigation", true);
-user_pref("network.trr.mode", 3);
-user_pref("network.trr.uri", "https://mozilla.cloudflare-dns.com/dns-query");
 user_pref("privacy.annotate_channels.strict_list.enabled", true);
 user_pref("privacy.fingerprintingProtection", true);
 user_pref("privacy.partition.network_state.ocsp_cache", true);
