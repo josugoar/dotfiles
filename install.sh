@@ -29,8 +29,7 @@ dnf install lazygit
 dnf install neovim
 
 # nerd-fonts
-git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git ~/.nerd-fonts
-~/.nerd-fonts/install.sh FiraCodeNerdFont
+curl --location https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip | unzip -d ~/.local/share/fonts/FiraCode
 
 # ripgrep
 dnf install ripgrep
