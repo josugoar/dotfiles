@@ -2,9 +2,6 @@
 
 set -e
 
-# chromium
-dnf install chromium
-
 # fd
 dnf install fd-find
 
