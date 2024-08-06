@@ -31,6 +31,9 @@ dnf install neovim
 # nerd-fonts
 curl --location https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip | unzip -d ~/.local/share/fonts/FiraCode
 
+# power-profile-switcher
+curl https://extensions.gnome.org/extension-data/power-profile-switchereliapasquali.github.io.v19.shell-extension.zip | unzip -d ~/.local/share/gnome-shell/extensions/power-profile-switcher@eliapasquali.github.io
+
 # ripgrep
 dnf install ripgrep
 
