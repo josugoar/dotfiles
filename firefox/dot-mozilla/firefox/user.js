@@ -5,7 +5,6 @@ user_pref("browser.contentblocking.category", "strict");
 user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
-user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 user_pref("browser.startup.homepage", "about:home");
 user_pref("browser.startup.page", 3);
