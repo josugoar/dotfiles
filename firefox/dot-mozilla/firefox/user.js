@@ -10,6 +10,7 @@ user_pref("browser.startup.page", 3);
 user_pref("browser.tabs.warnOnClose", true);
 user_pref("browser.toolbars.bookmarks.visibility", "never");
 user_pref("browser.translations.enable", false);
+user_pref("browser.urlbar.trimURLs", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("devtools.toolbox.host", "right");
 user_pref("doh-rollout.disable-heuristics", true);
