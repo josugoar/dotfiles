@@ -42,7 +42,7 @@ command='gnome-terminal'
 name='Launch terminal'
 
 [org/gnome/shell]
-enabled-extensions=['gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com', 'tiling-assistant@leleat-on-github']
+enabled-extensions=['gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com', 'power-profile-switcher@eliapasquali.github.io', 'tiling-assistant@leleat-on-github']
 
 [org/gnome/shell/extensions/tiling-assistant]
 # https://github.com/Leleat/Tiling-Assistant/issues/304
