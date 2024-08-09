@@ -18,9 +18,6 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # fzf
 dnf install fzf
 
-# gnome-fuzzy-app-search
-curl https://extensions.gnome.org/extension-data/gnome-fuzzy-app-searchgnome-shell-extensions.Czarlie.gitlab.com.v24.shell-extension.zip | unzip -d ~/.local/share/gnome-shell/extensions/gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com
-
 # gnome-themes-extra
 dnf install gnome-themes-extra
 
