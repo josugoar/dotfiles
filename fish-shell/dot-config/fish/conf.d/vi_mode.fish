@@ -2,7 +2,7 @@ if not status is-interactive
     return
 end
 
-set -g fish_key_bindings fish_vi_key_bindings
+set -g fish_key_bindings fish_hybrid_key_bindings
 
 set -g fish_cursor_default block
 set -g fish_cursor_insert line
