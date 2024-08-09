@@ -2,6 +2,9 @@
 
 set -e
 
+# dconf
+echo service-db:keyfile/user >>/etc/dconf/profile/user
+
 # fd
 dnf install fd-find
 
