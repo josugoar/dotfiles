@@ -5,7 +5,7 @@
 
 # dconf
 * Configure keyboard and locale with localectl in install.sh and remove from user.txt
-* Download and install extensions from https://extensions.gnome.org/download-extension/{uuid}.shell-extension.zip?shell_version={shell_version}
+* Download and install extensions from https://extensions.gnome.org/download-extension/{uuid}.shell-extension.zip?shell_version={shell_version} (use "gnome-extensions version")
 
 # vscode
 * Download repository to yum directory directly (https://packages.microsoft.com/yumrepos/vscode/config.repo)
