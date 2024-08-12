@@ -1,6 +1,6 @@
 # firefox
 * Replace Google with DuckDuckGo
-* Downloads extensions from https://addons.mozilla.org/firefox/downloads/latest/
+* Downloads extensions from https://addons.mozilla.org/firefox/downloads/latest/ or https://services.addons.mozilla.org/api/v4/addons/addon/
 * Use policies.json to remove default bookmarks?
 
 # dconf
