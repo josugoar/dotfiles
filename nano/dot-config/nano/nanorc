@@ -26,13 +26,12 @@ set indicator
 # Display line numbers to the left (and any anchors in the margin).
 set linenumbers
 
+# Fall back to slow libmagic to try and determine an applicable syntax.
+set magic
+
 # Suppress the title bar and show the filename plus a cursor-position
 # percentage in the space of the status bar.
 set minibar
-
-# Switch on multiple file buffers (inserting a file will put it into
-# a separate buffer).
-set multibuffer
 
 # Remember the cursor position in each file for the next editing session.
 set positionlog
