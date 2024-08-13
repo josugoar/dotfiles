@@ -1,26 +1,12 @@
-/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/window_control_placeholder_support.css made available under Mozilla Public License v. 2.0
-See the above repository for updates as well as full license text. */
-
-/*
-Creates placeholders for window controls.
-This is a supporting file used by other stylesheets and is mostly
-unnecessary if window titlebar is enabled.
-
-Should preferably be imported before other stylesheets, because some values in this style are deliberately overridden by other styles.
-*/
-
-/* Modify these values to match your preferences
-These reserve extra space on both sides of the nav-bar to be able to drag the window */
 :root:is([tabsintitlebar], [sizemode="fullscreen"]) {
-  --uc-window-drag-space-pre: 0px; /* left side*/
-  --uc-window-drag-space-post: 0px; /* right side*/
+  --uc-window-drag-space-pre: 0px;
+  --uc-window-drag-space-post: 0px;
 }
 
 :root:is([tabsintitlebar][sizemode="maximized"], [sizemode="fullscreen"]) {
-  --uc-window-drag-space-pre: 0px; /* Remove pre space */
+  --uc-window-drag-space-pre: 0px;
 }
 
-/* Default width - used on Windows10+ */
 :root:is([tabsintitlebar], [sizemode="fullscreen"]) {
   --uc-window-control-width: 138px;
 }
@@ -31,14 +17,11 @@ These reserve extra space on both sides of the nav-bar to be able to drag the wi
     --uc-window-control-width: 105px;
   }
 }
-/* On linux set width based on number of caption buttons.
-One button */
 @media (-moz-gtk-csd-minimize-button), (-moz-gtk-csd-maximize-button), (-moz-gtk-csd-close-button) {
   :root:is([tabsintitlebar],[sizemode="fullscreen"]) {
     --uc-window-control-width: 28px;
   }
 }
-/* Two buttons */
 @media (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-maximize-button),
        (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-close-button),
        (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
@@ -46,7 +29,6 @@ One button */
     --uc-window-control-width: 56px;
   }
 }
-/* Three buttons */
 @media (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
   :root:is([tabsintitlebar],[sizemode="fullscreen"]) {
     --uc-window-control-width: 84px;
@@ -82,7 +64,6 @@ One button */
   background-clip: border-box !important;
 }
 
-/* Rules for window controls on left layout */
 @media (-moz-bool-pref: "userchrome.force-window-controls-on-left.enabled"),
        (-moz-gtk-csd-reversed-placement),
        (-moz-platform: macos){
