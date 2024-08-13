@@ -1,5 +1,5 @@
 :root:is([tabsintitlebar], [sizemode="fullscreen"]) {
-  --uc-window-control-width: 25px;
+  --uc-window-control-width: 24px;
   --uc-window-drag-space-pre: 3px;
   --uc-window-drag-space-post: 3px;
 }
