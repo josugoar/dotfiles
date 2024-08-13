@@ -80,6 +80,13 @@ $crystal\
 $custom\
 $sudo\
 $cmd_duration\
+$jobs\
+$battery\
+$time\
+$status\
+$os\
+$container\
+$shell\
 $line_break\
 $character"""
 
