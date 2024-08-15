@@ -1,3 +1,5 @@
+add_newline = false
+
 format = """
 $username\
 $hostname\
@@ -89,8 +91,6 @@ $container\
 $shell\
 $line_break\
 $character"""
-
-add_newline = false
 
 [aws]
 symbol = "  "
