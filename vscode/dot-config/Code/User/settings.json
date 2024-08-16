@@ -51,9 +51,6 @@
     "window.restoreFullscreen": true,
     "window.titleBarStyle": "custom",
     "workbench.editor.wrapTabs": true,
-    "workbench.editorAssociations": {
-        "*.md": "default"
-    },
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
     "workbench.startupEditor": "none",
