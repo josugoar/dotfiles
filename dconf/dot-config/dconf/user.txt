@@ -21,14 +21,6 @@ focus-mode='sloppy'
 [org/gnome/mutter]
 attach-modal-dialogs=false
 
-[org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal/']
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal]
-binding='<Control><Alt>t'
-command='gnome-terminal'
-name='Launch terminal'
-
 [org/gnome/shell]
 enabled-extensions=['power-profile-switcher@eliapasquali.github.io', 'tiling-assistant@leleat-on-github']
 
