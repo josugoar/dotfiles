@@ -5,9 +5,6 @@ xkb-options=['caps:escape_shifted_capslock', 'lv3:ralt_switch']
 color-scheme='prefer-dark'
 gtk-theme='Adwaita-dark'
 
-[org/gnome/desktop/session]
-idle-delay=uint32 0
-
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=true
 event-sounds=false
@@ -23,11 +20,6 @@ focus-mode='sloppy'
 
 [org/gnome/mutter]
 attach-modal-dialogs=false
-
-[org/gnome/settings-daemon/plugins/power]
-idle-dim=false
-sleep-inactive-ac-type='nothing'
-sleep-inactive-battery-type='nothing'
 
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-terminal/']
