@@ -49,7 +49,7 @@
     "terminal.integrated.fontFamily": "Symbols Nerd Font",
     "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
     "window.confirmBeforeClose": "keyboardOnly",
-    "window.enableMenuBarMnemonics": false,
+    "window.customMenuBarAltFocus": false,
     "window.titleBarStyle": "custom",
     "workbench.editor.wrapTabs": true,
     "workbench.enableExperiments": false,
