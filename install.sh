@@ -6,6 +6,9 @@ dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(r
 dnf update @core
 dnf swap ffmpeg-free ffmpeg --allowerasing
 
+# adw-gtk3
+dnf install adw-gtk3-theme
+
 # dconf
 echo service-db:keyfile/user >>/etc/dconf/profile/user
 
@@ -21,9 +24,6 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 # fzf
 dnf install fzf
-
-# gnome-themes-extra
-dnf install gnome-themes-extra
 
 # lazygit
 dnf copr enable atim/lazygit
