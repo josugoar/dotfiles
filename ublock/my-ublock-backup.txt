@@ -2,6 +2,7 @@
   "timeStamp": 1721318946403,
   "version": "1.58.0",
   "userSettings": {
+    "advancedUserEnabled": true,
     "cloudStorageEnabled": true,
     "contextMenuEnabled": false,
     "importedLists": []
