@@ -55,7 +55,8 @@
   height: 40px;
 }
 
-:root[sizemode="fullscreen"] #TabsToolbar > .titlebar-buttonbox-container:last-child{ height: 32px }
+:root[sizemode="fullscreen"][uidensity="compact"] #TabsToolbar > .titlebar-buttonbox-container:last-child{ height: 34px }
+:root[sizemode="fullscreen"][uidensity="touch"] #TabsToolbar > .titlebar-buttonbox-container:last-child{ height: 44px }
 
 #nav-bar{
   border-inline: var(--uc-window-drag-space-pre,0px) solid transparent;
