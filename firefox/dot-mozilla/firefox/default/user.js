@@ -11,7 +11,6 @@ user_pref("browser.toolbars.bookmarks.visibility", "never");
 user_pref("browser.translations.enable", false);
 user_pref("browser.urlbar.suggest.trending", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
-user_pref("devtools.toolbox.host", "right");
 user_pref("doh-rollout.disable-heuristics", true);
 user_pref("dom.private-attribution.submission.enabled", false);
 user_pref("dom.security.https_only_mode", true);
