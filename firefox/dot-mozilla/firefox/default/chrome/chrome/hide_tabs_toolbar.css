@@ -1,5 +1,6 @@
 :root[tabsintitlebar]{ --uc-toolbar-height: 40px; }
-:root[tabsintitlebar][uidensity="compact"]{ --uc-toolbar-height: 32px }
+:root[tabsintitlebar][uidensity="compact"]{ --uc-toolbar-height: 34px }
+:root[tabsintitlebar][uidensity="touch"]{ --uc-toolbar-height: 44px }
 #titlebar{
   will-change: unset !important;
   transition: none !important;
