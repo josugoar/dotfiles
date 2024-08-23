@@ -1,7 +1,7 @@
 #main-window[titlepreface*="​"]{
   #sidebar-box{
     --uc-sidebar-width: 34px;
-    --uc-sidebar-hover-width: 230px;
+    --uc-sidebar-hover-width: 280px;
     --uc-autohide-sidebar-delay: 0ms;
     --uc-autohide-transition-duration: 115ms;
     --uc-autohide-transition-type: linear;
