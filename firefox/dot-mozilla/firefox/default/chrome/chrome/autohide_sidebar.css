@@ -1,14 +1,16 @@
 #sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"]{
-  --uc-sidebar-width: 38px;
-  --uc-sidebar-hover-width: 280px;
-  --uc-autohide-sidebar-delay: 0ms;
-  --uc-autohide-transition-duration: 115ms;
-  --uc-autohide-transition-type: linear;
-  position: relative;
-  min-width: var(--uc-sidebar-width) !important;
-  width: var(--uc-sidebar-width) !important;
-  max-width: var(--uc-sidebar-width) !important;
-  z-index:1;
+  &{
+    --uc-sidebar-width: 38px;
+    --uc-sidebar-hover-width: 280px;
+    --uc-autohide-sidebar-delay: 0ms;
+    --uc-autohide-transition-duration: 115ms;
+    --uc-autohide-transition-type: linear;
+    position: relative;
+    min-width: var(--uc-sidebar-width) !important;
+    width: var(--uc-sidebar-width) !important;
+    max-width: var(--uc-sidebar-width) !important;
+    z-index:1;
+  }
 
   &[positionend]{ direction: rtl }
   &[positionend] > *{ direction: ltr }
