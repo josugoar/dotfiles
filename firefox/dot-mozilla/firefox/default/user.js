@@ -18,6 +18,7 @@ user_pref("extensions.pocket.enabled", false);
 user_pref("extensions.webextensions.restrictedDomains", "");
 user_pref("findbar.highlightAll", true);
 user_pref("network.http.referer.disallowCrossSiteRelaxingDefault.top_navigation", true);
+user_pref("network.trr.mode", 2);
 user_pref("privacy.annotate_channels.strict_list.enabled", true);
 user_pref("privacy.fingerprintingProtection", true);
 user_pref("privacy.partition.network_state.ocsp_cache", true);
