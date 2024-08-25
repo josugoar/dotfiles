@@ -14,7 +14,6 @@ user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("doh-rollout.disable-heuristics", true);
 user_pref("dom.private-attribution.submission.enabled", false);
 user_pref("dom.security.https_only_mode", true);
-user_pref("extensions.pocket.enabled", false);
 user_pref("extensions.webextensions.restrictedDomains", "");
 user_pref("findbar.highlightAll", true);
 user_pref("network.http.referer.disallowCrossSiteRelaxingDefault.top_navigation", true);
