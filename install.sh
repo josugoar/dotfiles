@@ -53,4 +53,4 @@ dnf install zoxide
 
 # stow
 sudo dnf install stow
-stow --dotfiles --target "$HOME" darkreader dconf firefox fish-shell fontconfig git gtk nano neovim sidebery starship twp ublock vscode
+stow --dotfiles --target "$HOME" bash darkreader dconf firefox fish-shell git gtk nano neovim sidebery starship twp ublock vscode
