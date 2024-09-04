@@ -18,9 +18,6 @@ dnf install fd-find
 # fish-shell
 dnf install fish
 
-# flathub
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
 # fzf
 dnf install fzf
 
