@@ -35,6 +35,7 @@
     "git.autofetch": true,
     "git.autoStash": true,
     "git.rebaseWhenSync": true,
+    "keyboard.dispatch": "keyCode",
     "notebook.formatOnCellExecution": true,
     "notebook.formatOnSave.enabled": true,
     "notebook.output.scrolling": true,
