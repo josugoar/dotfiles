@@ -2,9 +2,6 @@
 
 set -e
 
-# rpmfusion
-dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-
 # adw-gtk3
 dnf install adw-gtk3-theme
 
@@ -13,10 +10,6 @@ echo service-db:keyfile/user >>/etc/dconf/profile/user
 
 # fd
 dnf install fd-find
-
-# ffmpeg
-dnf update @core
-dnf swap ffmpeg-free ffmpeg --allowerasing
 
 # fish-shell
 dnf install fish
@@ -56,7 +49,7 @@ curl https://starship.rs/install.sh | sh
 curl https://extensions.gnome.org/extension-data/tiling-assistantleleat-on-github.v47.shell-extension.zip | unzip -d ~/.local/share/gnome-shell/extensions/tiling-assistant@leleat-on-github
 
 # vscode
-dnf config-manager addrepo --from-repofile=https://packages.microsoft.com/yumrepos/vscode/config.repo
+dnf config-manager addrepo --from-repofile https://packages.microsoft.com/yumrepos/vscode/config.repo
 dnf install code
 
 # zoxide
