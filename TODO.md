@@ -1,12 +1,5 @@
 # firefox
-* Replace Google with DuckDuckGo
-* Downloads extensions from https://addons.mozilla.org/firefox/downloads/latest/ or https://services.addons.mozilla.org/api/v4/addons/addon/
-* Use policies.json to remove default bookmarks?
+* Download extensions from https://addons.mozilla.org/firefox/downloads/latest/ or https://services.addons.mozilla.org/api/v4/addons/addon/
 
 # dconf
-* Configure keyboard and locale with localectl in install.sh and remove from user.txt
 * Download and install extensions from https://extensions.gnome.org/download-extension/{uuid}.shell-extension.zip?shell_version={shell_version} (use "gnome-extensions version")
-  * To install use gnome-extensions install?
-
-# vscode
-* Download repository to yum directory directly (https://packages.microsoft.com/yumrepos/vscode/config.repo)
