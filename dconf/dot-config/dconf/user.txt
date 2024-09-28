@@ -12,7 +12,7 @@ switch-windows=['<Super>Tab', '<Alt>Tab']
 switch-windows-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
 
 [org/gnome/shell]
-enabled-extensions=['power-profile-switcher@eliapasquali.github.io', 'tiling-assistant@leleat-on-github']
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'dash-to-dock@micxgx.gmail.com', 'legacyschemeautoswitcher@joshimukul29.gmail.com', 'tiling-assistant@leleat-on-github']
 
 [org/gnome/shell/extensions/tiling-assistant]
 # https://github.com/Leleat/Tiling-Assistant/issues/304
