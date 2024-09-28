@@ -47,10 +47,10 @@ dnf install stow
 curl https://extensions.gnome.org/extension-data/tiling-assistantleleat-on-github.v47.shell-extension.zip | unzip -d ~/.local/share/gnome-shell/extensions/tiling-assistant@leleat-on-github
 
 # vscode
-dnf config-manager addrepo --from-repofile https://packages.microsoft.com/yumrepos/vscode/config.repo
+dnf config-manager addrepo --from-repofile=https://packages.microsoft.com/yumrepos/vscode/config.repo
 dnf install code
 
 # zoxide
 dnf install zoxide
 
-stow --dotfiles --target "$HOME" bash darkreader dconf firefox fish-shell git gtk nano neovim sidebery starship twp ublock vscode
+stow --dotfiles --target="$HOME" bash darkreader dconf firefox fish-shell git gtk nano neovim sidebery starship twp ublock vscode
