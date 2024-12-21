@@ -39,7 +39,7 @@ Most importantly, one of the single most impactful aspects of my day to day brow
 > [!NOTE]  
 > When installing the dotfiles, Firefox user configuration must be moved to the appropiate profile directory. This is because each profile has a unique identification which is part of the directory name, so manual intervention is required.
 >
-> **Bitwarden**, **Dark Reader**, **GNOME Shell Integration**, **Sidebery**, **TWP** and **uBlock Origin** (and **Vimium** and **Side View**) must be installed separately.
+> **Bitwarden**, **Dark Reader**, **GNOME Shell Integration**, **Sidebery**, **TWP** and **uBlock Origin** must be installed separately.
 
 ### Terminal emulator
 
