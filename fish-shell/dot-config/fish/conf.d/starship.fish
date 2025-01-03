@@ -23,21 +23,20 @@ function starship_transient_prompt_func
     end
 end
 
-function reset-transient --on-event fish_posterror --on-event fish_prompt
-    set -g TRANSIENT 0
-end
-
 function transient_execute
     if commandline --paging-mode
         set -g TRANSIENT 0
+        set -g RIGHT_TRANSIENT 0
         commandline -f execute
         return
     end
     if commandline --is-valid || test $status -eq 1 || test -z (commandline --current-buffer | string trim -l | string collect)
         set -g TRANSIENT 1
+        set -g RIGHT_TRANSIENT 1
         commandline -f repaint
     else
         set -g TRANSIENT 0
+        set -g RIGHT_TRANSIENT 0
     end
     commandline -f execute
 end
