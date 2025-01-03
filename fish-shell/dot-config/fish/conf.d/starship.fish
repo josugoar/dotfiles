@@ -18,25 +18,22 @@ function line_break --on-signal SIGWINCH
 end
 
 function starship_transient_prompt_func
-    if commandline --is-valid || test $status -eq 1 && test -n (commandline --current-buffer | string trim -l | string collect)
-        starship module $argv character    
+    if test -n (commandline | string trim -l | string collect)
+        starship module $argv character
     end
 end
 
 function transient_execute
     if commandline --paging-mode
-        set -g TRANSIENT 0
-        set -g RIGHT_TRANSIENT 0
-        commandline -f execute
-        return
+        set cursor (commandline --cursor)
+        commandline -f end-of-buffer
+        commandline --cursor $cursor
     end
-    if commandline --is-valid || test $status -eq 1 || test -z (commandline --current-buffer | string trim -l | string collect)
+    commandline --is-valid
+    if test $status != 2
         set -g TRANSIENT 1
         set -g RIGHT_TRANSIENT 1
         commandline -f repaint
-    else
-        set -g TRANSIENT 0
-        set -g RIGHT_TRANSIENT 0
     end
     commandline -f execute
 end
