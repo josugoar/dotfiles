@@ -13,12 +13,8 @@ end
 
 function starship_transient_prompt_func
     if commandline --is-valid || test $status -eq 1 && test -n (commandline --current-buffer | string trim -l | string collect)
-        starship module --status=$STARSHIP_CMD_STATUS character    
+        starship module $argv character    
     end
-end
-
-function starship_transient_prompt_func_options --on-event fish_prompt
-    set -g STARSHIP_CMD_STATUS $status
 end
 
 function reset-transient --on-event fish_posterror --on-event fish_prompt
