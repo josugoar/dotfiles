@@ -11,11 +11,11 @@ function add_newline --on-event fish_posterror --on-event fish_prompt
     set -g NEWLINE 1
 end
 
-stty rows (math $LINES - (fish_prompt | count))
-
 function line_break --on-signal SIGWINCH
     stty rows (math $LINES - (fish_prompt | count))
 end
+
+line_break
 
 function starship_transient_prompt_func
     if test -n (commandline | string trim -l | string collect)
