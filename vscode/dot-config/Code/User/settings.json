@@ -23,11 +23,10 @@
     "editor.stickyTabStops": true,
     "editor.suggest.preview": true,
     "editor.tabCompletion": "on",
-    "explorer.autoReveal": false,
+    "explorer.autoReveal": "focusNoScroll",
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
-    "extensions.ignoreRecommendations": true,
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -45,7 +44,6 @@
     "security.workspace.trust.enabled": false,
     "settingsSync.keybindingsPerPlatform": false,
     "telemetry.telemetryLevel": "off",
-    "terminal.integrated.enableImages": true,
     "terminal.integrated.fontFamily": "Symbols Nerd Font",
     "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
     "window.confirmBeforeClose": "keyboardOnly",
