@@ -49,7 +49,7 @@ While having tried multiple terminal emulators in the form of **kitty**, **wezte
 
 The selected shell is none other than the friendly interactive shell **fish**. While not *fully* aligning with their "no configuration" ideals, it can't be denied that the sane defaults may objectively give the best shell user experience out of the box and, while there is enjoyment to be had configuring **zsh**, one cannot be bothered (we don't talk about **bash**, altough there are some [cool efforts](https://github.com/akinomyoga/ble.sh) in that camp). There are also some other alternative shells like [xonsh](https://github.com/xonsh/xonsh) to consider.
 
-The dotfiles only directly configure the programs that have direct shell integration and modify the user's workflow, like **fzf** and **zoxide**. The prompt is **starship** but it is heavily modified to fix all the transient prompt problems (like not enabling transience when accepting an empty command line) and decluttering the output when not running a command.
+The dotfiles only directly configure the programs that have direct shell integration and modify the user's workflow, like **fzf** and **zoxide**. The prompt is **starship** but it is heavily modified to fix all the transient prompt problems (like not enabling transience when accepting an empty command line) and decluttering the output when not running a command. I feel like it is the ultimate shell experience, only after having a transient prompt at the top, which AFAIK cannot be achieved using conventional terminal emulators (e.g. **warp**).
 
 ### Text editor(s)
 
