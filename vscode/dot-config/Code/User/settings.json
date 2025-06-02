@@ -24,9 +24,7 @@
     "editor.suggest.preview": true,
     "editor.tabCompletion": "on",
     "explorer.autoReveal": "focusNoScroll",
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
-    },
+    "explorer.sortOrderLexicographicOptions": "unicode",
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
