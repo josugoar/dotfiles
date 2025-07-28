@@ -60,7 +60,7 @@ set stateflags
 # Use this tab size instead of the default; it must be greater than 0.
 set tabsize 4
 
-# Convert each typed tab to the fitting number of spaces.                                                                                                                                                      
+# Convert each typed tab to the fitting number of spaces.
 set tabstospaces
 
 # Snip whitespace at the end of lines when justifying or hard-wrapping.
@@ -69,12 +69,3 @@ set trimblanks
 # Let an unmodified Backspace or Delete erase the marked region (instead
 # of a single character, and without affecting the cutbuffer).
 set zap
-
-# The <Ctrl+Delete> keystroke deletes the word to the right of the cursor.
-# On some terminals the <Ctrl+Backspace> keystroke produces ^H, which is
-# the ASCII character for backspace, so it is bound by default to the
-# backspace function.  The <Backspace> key itself produces a different
-# keycode, which is hard-bound to the backspace function.  So, if you
-# normally use <Backspace> for backspacing and not ^H, you can make
-# <Ctrl+Backspace> delete the word to the left of the cursor with:
-bind ^H chopwordleft main
