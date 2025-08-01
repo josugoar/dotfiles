@@ -31,7 +31,6 @@
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.autoStash": true,
-    "git.rebaseWhenSync": true,
     "notebook.formatOnCellExecution": true,
     "notebook.formatOnSave.enabled": true,
     "notebook.output.scrolling": true,
