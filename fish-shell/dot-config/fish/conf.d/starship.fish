@@ -11,26 +11,14 @@ function add_newline --on-event fish_posterror --on-event fish_prompt
     set -g NEWLINE 1
 end
 
-function line_break --on-signal SIGWINCH
-    stty rows (math $LINES - (fish_prompt | count))
-end
-
-line_break
-
 function starship_transient_prompt_func
-    if test -n (commandline | string trim -l | string collect)
+    if test -n (commandline | string trim | string collect)
         starship module $argv character
     end
 end
 
 function transient_execute
-    if commandline --paging-mode
-        set cursor (commandline --cursor)
-        commandline -f end-of-buffer
-        commandline --cursor $cursor
-    end
-    commandline --is-valid
-    if test $status != 2
+    if commandline --is-valid || test $status -eq 1 -a (string sub -s -1 (commandline | string collect)) != '\\' && not commandline --paging-mode
         set -g TRANSIENT 1
         set -g RIGHT_TRANSIENT 1
         commandline -f repaint
