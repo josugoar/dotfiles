@@ -12,12 +12,5 @@ switch-applications-backward=@as []
 switch-windows=['<Super>Tab', '<Alt>Tab']
 switch-windows-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
 
-[org/gnome/shell]
-enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'dash-to-dock@micxgx.gmail.com', 'legacyschemeautoswitcher@joshimukul29.gmail.com', 'tiling-assistant@leleat-on-github']
-
-# https://github.com/Leleat/Tiling-Assistant/issues/304
-[org/gnome/shell/extensions/tiling-assistant]
-enable-tile-animations=false
-
 [org/gnome/shell/window-switcher]
 current-workspace-only=false
