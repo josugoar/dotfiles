@@ -12,7 +12,7 @@
 Clone the repository, execute the installation script from the project root and dotfiles will be symlinked to their appropriate location, overriding the previous.
 
 ```sh
-git clone https://github.com/josugoar/dotfiles.git
+git clone --recurse-submodules https://github.com/josugoar/dotfiles.git
 cd dotfiles
 ./install.sh
 ```
