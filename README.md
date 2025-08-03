@@ -1,5 +1,11 @@
 # dotfiles
 
+<p align="center">
+  <img src="assets/dotfiles.gif" alt="dotfiles" width="640" height="320" />
+</p>
+
+<h1></h1>
+
 > Streamlining modern development
 
 ## Installation
