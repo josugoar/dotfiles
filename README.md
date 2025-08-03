@@ -1,7 +1,7 @@
 # dotfiles
 
 <p align="center">
-  <img src="assets/dotfiles.gif" alt="dotfiles" width="1920" height="1080" />
+  <img src="assets/dotfiles.gif" alt="dotfiles" width="960" height="540" />
 </p>
 
 <h1></h1>
