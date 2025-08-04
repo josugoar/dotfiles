@@ -18,7 +18,7 @@ function starship_transient_prompt_func
 end
 
 function transient_execute
-    if commandline --is-valid || test $status -eq 1 -a (string sub -s -1 (commandline | string collect)) != '\\' && not commandline --paging-mode
+    if commandline --is-valid || test "$status" = "1" -a (string sub -s -1 (commandline | string collect)) != "\\" && not commandline --paging-mode
         set -g TRANSIENT 1
         set -g RIGHT_TRANSIENT 1
         commandline -f repaint
