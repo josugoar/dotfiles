@@ -43,6 +43,7 @@
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontFamily": "Symbols Nerd Font",
     "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
+    "terminal.integrated.suggest.enabled": false,
     "window.confirmBeforeClose": "keyboardOnly",
     "window.customMenuBarAltFocus": false,
     "window.titleBarStyle": "custom",
