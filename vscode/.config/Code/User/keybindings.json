@@ -7,6 +7,6 @@
     {
         "key": "ctrl+space",
         "command": "workbench.action.toggleMaximizedPanel",
-        "when": "terminalFocus"
+        "when": "panelFocus"
     }
 ]
