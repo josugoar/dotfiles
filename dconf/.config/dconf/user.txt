@@ -7,6 +7,8 @@ gtk-theme='adw-gtk3-dark'
 event-sounds=false
 
 [org/gnome/desktop/wm/keybindings]
+move-to-workspace-down=@as []
+move-to-workspace-up=@as []
 switch-applications=@as []
 switch-applications-backward=@as []
 switch-windows=['<Super>Tab', '<Alt>Tab']
