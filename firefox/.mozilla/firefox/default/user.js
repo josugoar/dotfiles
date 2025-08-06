@@ -27,3 +27,4 @@ user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 user_pref("sidebar.revamp", false);
 user_pref("signon.rememberSignons", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+user_pref("widget.gtk.ignore-bogus-leave-notify", 1);
