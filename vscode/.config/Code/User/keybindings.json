@@ -1,10 +1,5 @@
 [
     {
-        "key": "ctrl+enter",
-        "command": "editor.action.insertLineAfter",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+space",
         "command": "workbench.action.toggleMaximizedPanel",
         "when": "panelFocus"
