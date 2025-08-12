@@ -1,7 +1,8 @@
 #!/bin/sh
 
-for source_file in $(find * -mindepth 1 -not -wholename "assets/*" -type f -printf "%P\0" | xargs --null); do
-  target_file="$HOME/$source_file"
+for file in $(find * -mindepth 1 -not -wholename "assets/*" -type f -print0 | xargs --null); do
+  source_file=$(realpath "$file")
+  target_file="$HOME/${file#*/}"
   mkdir --parents "$(dirname "$target_file")"
   ln --force --symbolic "$source_file" "$target_file"
 done
