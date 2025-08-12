@@ -18,4 +18,4 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-exec /usr/bin/fish
+exec fish
