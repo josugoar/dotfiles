@@ -29,6 +29,7 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "git.allowForcePush": true,
     "git.autofetch": true,
     "git.autoStash": true,
     "notebook.formatOnCellExecution": true,
