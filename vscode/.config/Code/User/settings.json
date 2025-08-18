@@ -23,7 +23,7 @@
     "editor.stickyTabStops": true,
     "editor.suggest.preview": true,
     "editor.tabCompletion": "on",
-    "explorer.autoReveal": "focusNoScroll",
+    "explorer.autoReveal": false,
     "explorer.sortOrderLexicographicOptions": "unicode",
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
