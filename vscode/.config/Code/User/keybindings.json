@@ -3,5 +3,10 @@
         "key": "ctrl+space",
         "command": "workbench.action.toggleMaximizedPanel",
         "when": "panelFocus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-vscode-neovim.escape",
+        "when": "editorTextFocus && neovim.init && editorLangId not in 'neovim.editorLangIdExclusions'"
     }
 ]
