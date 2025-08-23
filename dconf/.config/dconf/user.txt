@@ -2,7 +2,6 @@
 xkb-options=['caps:escape_shifted_capslock']
 
 [org/gnome/desktop/interface]
-clock-format='24h'
 color-scheme='prefer-dark'
 gtk-theme='adw-gtk3-dark'
 
@@ -19,6 +18,10 @@ switch-windows-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
 
 [org/gnome/shell/window-switcher]
 current-workspace-only=false
+
+[org/gtk/gtk4/settings/file-chooser]
+show-hidden=true
+sort-directories-first=true
 
 [system/locale]
 region=''
