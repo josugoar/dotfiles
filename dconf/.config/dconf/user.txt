@@ -16,6 +16,14 @@ switch-applications-backward=@as []
 switch-windows=['<Super>Tab', '<Alt>Tab']
 switch-windows-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
 
+[org/gnome/shell]
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'tiling-assistant@ubuntu.com', 'touchpad-gesture-customization@coooolapps.com']
+
+[org/gnome/shell/extensions/touchpad-gesture-customization]
+horizontal-swipe-3-fingers-gesture='WORKSPACE_SWITCHING'
+horizontal-swipe-4-fingers-gesture='WINDOW_SWITCHING'
+overview-navigation-states='GNOME'
+
 [org/gnome/shell/window-switcher]
 current-workspace-only=false
 
