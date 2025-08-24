@@ -17,7 +17,11 @@ switch-windows=['<Super>Tab', '<Alt>Tab']
 switch-windows-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
 
 [org/gnome/shell]
-enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'tiling-assistant@ubuntu.com', 'touchpad-gesture-customization@coooolapps.com']
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'caffeine@patapon.info', 'middleclickclose@paolo.tranquilli.gmail.com', 'tiling-assistant@ubuntu.com', 'touchpad-gesture-customization@coooolapps.com']
+
+[org/gnome/shell/extensions/caffeine]
+enable-fullscreen=false
+toggle-shortcut=['Break']
 
 [org/gnome/shell/extensions/touchpad-gesture-customization]
 horizontal-swipe-3-fingers-gesture='WORKSPACE_SWITCHING'
