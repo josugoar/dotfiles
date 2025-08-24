@@ -20,7 +20,6 @@ switch-windows-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
 enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'caffeine@patapon.info', 'middleclickclose@paolo.tranquilli.gmail.com', 'tiling-assistant@ubuntu.com', 'touchpad-gesture-customization@coooolapps.com']
 
 [org/gnome/shell/extensions/caffeine]
-enable-fullscreen=false
 toggle-shortcut=['Break']
 
 [org/gnome/shell/extensions/touchpad-gesture-customization]
