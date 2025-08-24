@@ -6,7 +6,7 @@
 
 <h1></h1>
 
-> Streamlined modern development environment
+> Modern development environment
 
 ## Installation
 
