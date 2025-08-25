@@ -17,7 +17,7 @@ switch-windows=['<Super>Tab', '<Alt>Tab']
 switch-windows-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
 
 [org/gnome/shell]
-enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'caffeine@patapon.info', 'grand-theft-focus@zalckos.github.com', 'middleclickclose@paolo.tranquilli.gmail.com', 'tiling-assistant@ubuntu.com', 'touchpad-gesture-customization@coooolapps.com']
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'caffeine@patapon.info', 'grand-theft-focus@zalckos.github.com', 'middleclickclose@paolo.tranquilli.gmail.com', 'pip-on-top@rafostar.github.com', 'tiling-assistant@ubuntu.com', 'touchpad-gesture-customization@coooolapps.com']
 
 [org/gnome/shell/extensions/caffeine]
 toggle-shortcut=['Break']
