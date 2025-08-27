@@ -7,7 +7,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "if_single(key(KEY_ESC), hold_keys(KEY_LEFTCTRL))",
+        "output_symbol": "if_single(key(Escape), hold(Control_L))",
         "mapping_type": "key_macro"
     },
     {
@@ -22,7 +22,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "key(KEY_CAPSLOCK)",
+        "output_symbol": "Caps_Lock",
         "mapping_type": "key_macro"
     },
     {
@@ -37,7 +37,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "key(KEY_CAPSLOCK)",
+        "output_symbol": "Caps_Lock",
         "mapping_type": "key_macro"
     }
 ]
