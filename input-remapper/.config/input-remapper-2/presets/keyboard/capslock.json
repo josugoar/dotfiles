@@ -7,7 +7,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "if_single(key(Escape), hold(Control_L))",
+        "output_symbol": "Escape",
         "mapping_type": "key_macro"
     },
     {
