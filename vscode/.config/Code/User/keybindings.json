@@ -6,7 +6,7 @@
     },
     {
         "key": "ctrl+`",
-        "command": "-vscode-neovim.escape",
-        "when": "editorTextFocus && neovim.init && editorLangId not in 'neovim.editorLangIdExclusions'"
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
     }
 ]
