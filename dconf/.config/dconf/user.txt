@@ -27,6 +27,9 @@ overview-navigation-states='GNOME'
 [org/gnome/shell/window-switcher]
 current-workspace-only=false
 
+[org/gnome/TextEditor]
+restore-session=false
+
 [org/gtk/gtk4/settings/file-chooser]
 show-hidden=true
 sort-directories-first=true
