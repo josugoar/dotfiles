@@ -5,8 +5,38 @@
         "when": "panelFocus"
     },
     {
+        "key": "capslock",
+        "command": "vscode-neovim.escape",
+        "when": "editorTextFocus && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && neovim.mode == 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "capslock",
+        "command": "vscode-neovim.escape",
+        "when": "editorTextFocus && neovim.init && neovim.mode != 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "escape",
+        "command": "vscode-neovim.escape",
+        "when": "editorTextFocus && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && !suggestWidgetVisible && neovim.mode == 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "escape",
+        "command": "vscode-neovim.escape",
+        "when": "editorTextFocus && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && !suggestWidgetVisible && neovim.mode != 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
         "key": "ctrl+`",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
+        "command": "-vscode-neovim.escape",
+        "when": "editorTextFocus && neovim.init && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "escape",
+        "command": "-vscode-neovim.escape",
+        "when": "editorTextFocus && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && neovim.mode == 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "escape",
+        "command": "-vscode-neovim.escape",
+        "when": "editorTextFocus && neovim.init && neovim.mode != 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
     }
 ]
