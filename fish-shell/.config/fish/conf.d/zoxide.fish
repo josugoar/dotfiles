@@ -14,7 +14,7 @@ function __zoxide_z_complete
         set -l query $tokens[2..-1]
         set -l result (command zoxide query --exclude (__zoxide_pwd) --interactive -- $query 2>/dev/null)
         and __zoxide_cd $result
-        and builtin commandline --function cancel-commandline
+        and builtin commandline --function clear-commandline
         builtin commandline --function repaint
     end
 end
