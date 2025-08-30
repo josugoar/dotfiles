@@ -5,6 +5,24 @@ gtk-theme='adw-gtk3-dark'
 [org/gnome/desktop/sound]
 event-sounds=false
 
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-monitor/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-monitor]
+binding='<Shift><Control>Escape'
+command='gnome-system-monitor'
+name='Launch system monitor'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-monitor]
+binding='<Control><Alt>t'
+command='ptyxis -s'
+name='Launch terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom]
+binding='<Control><Alt>t'
+command='ptyxis -s'
+name='Launch terminal'
+
 [org/gnome/desktop/wm/keybindings]
 move-to-workspace-down=@as []
 move-to-workspace-up=@as []
