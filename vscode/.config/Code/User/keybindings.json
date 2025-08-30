@@ -17,12 +17,12 @@
     {
         "key": "escape",
         "command": "vscode-neovim.escape",
-        "when": "editorTextFocus && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && !suggestWidgetVisible && neovim.mode == 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
+        "when": "editorTextFocus && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inlineChatVisible && !inlineSuggestionVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && !suggestWidgetVisible && neovim.mode == 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
     },
     {
         "key": "escape",
         "command": "vscode-neovim.escape",
-        "when": "editorTextFocus && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && !suggestWidgetVisible && neovim.mode != 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
+        "when": "editorTextFocus && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inlineChatVisible && !inlineSuggestionVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && !suggestWidgetVisible && neovim.mode != 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
     },
     {
         "key": "ctrl+`",
