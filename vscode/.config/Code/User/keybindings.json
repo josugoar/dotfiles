@@ -1,5 +1,10 @@
 [
     {
+        "key": "ctrl+[Semicolon]",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
         "key": "ctrl+space",
         "command": "workbench.action.toggleMaximizedPanel",
         "when": "panelFocus"
@@ -23,16 +28,6 @@
         "key": "escape",
         "command": "vscode-neovim.escape",
         "when": "editorTextFocus && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inlineChatVisible && !inlineSuggestionVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && !suggestWidgetVisible && neovim.mode != 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
-    },
-    {
-        "key": "ctrl+`",
-        "command": "-vscode-neovim.escape",
-        "when": "editorTextFocus && neovim.init && editorLangId not in 'neovim.editorLangIdExclusions'"
-    },
-    {
-        "key": "escape",
-        "command": "-vscode-neovim.escape",
-        "when": "editorTextFocus && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && neovim.mode == 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
     },
     {
         "key": "escape",
