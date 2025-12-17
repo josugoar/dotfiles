@@ -1,0 +1,4 @@
+{
+  "keyMappings": "map K previousTab\nmap gt previousTab\nmap J nextTab\nmap gT nextTab",
+  "settingsVersion": "2.3.1"
+}
