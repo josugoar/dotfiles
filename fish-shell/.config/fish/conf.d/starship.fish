@@ -23,6 +23,9 @@ end
 function starship_transient_prompt_func
     if test -n (commandline | string trim | string collect)
         starship module $argv character
+        set -g ADD_NEWLINE 1
+    else
+        set -g ADD_NEWLINE 0
     end
 end
 
