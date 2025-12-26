@@ -1,5 +1,15 @@
 [
     {
+        "key": "ctrl+shift+[Semicolon]",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+shift+alt+[Semicolon]",
+        "command": "workbench.action.terminal.newInNewWindow",
+        "when": "terminalHasBeenCreated || terminalProcessSupported"
+    },
+    {
         "key": "ctrl+[Semicolon]",
         "command": "workbench.action.terminal.toggleTerminal",
         "when": "terminal.active"
@@ -28,6 +38,16 @@
         "key": "escape",
         "command": "vscode-neovim.escape",
         "when": "editorTextFocus && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inlineChatVisible && !inlineSuggestionVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && !suggestWidgetVisible && neovim.mode != 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+shift+alt+`",
+        "command": "-workbench.action.terminal.newInNewWindow",
+        "when": "terminalHasBeenCreated || terminalProcessSupported"
     },
     {
         "key": "ctrl+`",
