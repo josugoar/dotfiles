@@ -1,5 +1,3 @@
-# service-db:keyfile/user
-
 [org/gnome/desktop/input-sources]
 xkb-options=['caps:escape_shifted_capslock']
 
@@ -60,3 +58,5 @@ sort-directories-first=true
 
 [system/locale]
 region=''
+
+# echo service-db:keyfile/user >>/etc/dconf/profile/user
