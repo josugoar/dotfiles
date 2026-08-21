@@ -52,6 +52,7 @@
     "window.confirmBeforeClose": "keyboardOnly",
     "window.customMenuBarAltFocus": false,
     "window.titleBarStyle": "custom",
+    "workbench.editor.empty.hint": "hidden",
     "workbench.editor.wrapTabs": true,
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
