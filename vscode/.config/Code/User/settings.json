@@ -25,9 +25,6 @@
     "editor.tabCompletion": "on",
     "explorer.autoReveal": false,
     "explorer.sortOrderLexicographicOptions": "unicode",
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
-    },
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -46,6 +43,7 @@
     "settingsSync.keybindingsPerPlatform": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontFamily": "Symbols Nerd Font",
+    "terminal.integrated.initialHint": false,
     "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
     "terminal.integrated.suggest.enabled": false,
     "vscode-neovim.ctrlKeysForInsertMode": [],
