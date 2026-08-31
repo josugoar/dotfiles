@@ -3,6 +3,7 @@ xkb-options=['caps:escape_shifted_capslock']
 
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
+enable-hot-corners=false
 gtk-theme='adw-gtk3-dark'
 
 [org/gnome/desktop/sound]
