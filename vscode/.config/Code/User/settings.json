@@ -1,4 +1,5 @@
 {
+    "chat.tips.enabled": false,
     "debug.allowBreakpointsEverywhere": true,
     "debug.autoExpandLazyVariables": "on",
     "debug.showSubSessionsInToolBar": true,
@@ -29,6 +30,7 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "git.addAICoAuthor": "off",
     "git.allowForcePush": true,
     "git.autofetch": true,
     "git.autoStash": true,
@@ -54,6 +56,7 @@
     "workbench.editor.wrapTabs": true,
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
     "workbench.startupEditor": "none",
     "workbench.view.alwaysShowHeaderActions": true
 }
