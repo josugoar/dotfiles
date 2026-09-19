@@ -1,4 +1,5 @@
 [org/gnome/desktop/input-sources]
+sources=[('xkb', 'es'), ('xkb', 'us')]
 xkb-options=['caps:escape_shifted_capslock']
 
 [org/gnome/desktop/interface]
