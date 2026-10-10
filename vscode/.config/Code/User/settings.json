@@ -26,6 +26,7 @@
     "editor.tabCompletion": "on",
     "explorer.autoReveal": false,
     "explorer.sortOrderLexicographicOptions": "unicode",
+    "extensions.ignoreRecommendations": true,
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
