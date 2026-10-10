@@ -1,5 +1,4 @@
 {
-    "chat.tips.enabled": false,
     "debug.allowBreakpointsEverywhere": true,
     "debug.autoExpandLazyVariables": "on",
     "debug.showSubSessionsInToolBar": true,
