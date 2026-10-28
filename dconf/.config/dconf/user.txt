@@ -49,7 +49,7 @@ horizontal-swipe-4-fingers-gesture='WINDOW_SWITCHING'
 overview-navigation-states='GNOME'
 
 [org/gnome/shell/window-switcher]
-current-workspace-only=false
+current-workspace-only=true
 
 [org/gnome/TextEditor]
 restore-session=false
