@@ -4,6 +4,7 @@
     "debug.showSubSessionsInToolBar": true,
     "debug.showVariableTypes": true,
     "debug.terminal.clearBeforeReusing": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.cursorSmoothCaretAnimation": "on",
